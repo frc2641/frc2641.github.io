@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunk_2641_website"]=self["webpackChunk_2641_website"]||[]).push([[596],{7596:function(n,t,e){e.r(t),e.d(t,{default:function(){return i}});var u=function(){var n=this,t=n._self._c;return t("div",[n._v("Contact")])},l=[],s={name:"Contact"},c=s,r=e(1001),a=(0,r.Z)(c,u,l,!1,null,null,null),i=a.exports}}]);
+//# sourceMappingURL=596.f4da3cda.js.map
