@@ -15,24 +15,14 @@ const routes = [
 		component: () => import("../views/About.vue"),
 	},
 	{
-		path: "/seasons",
-		name: "Seasons",
+		path: "/sponsors",
+		name: "Sponsors",
 		component: () => import("../views/Sponsors.vue"),
-	},
-	{
-		path: "/gallery",
-		name: "Gallery",
-		component: () => import("../views/Gallery.vue"),
 	},
 	{
 		path: "/contact",
 		name: "Contact",
 		component: () => import("../views/Contact.vue"),
-	},
-	{
-		path: "/sponsors",
-		name: "Sponsors",
-		component: () => import("../views/Sponsors.vue"),
 	},
 ];
 
