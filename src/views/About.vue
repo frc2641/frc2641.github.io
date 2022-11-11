@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row class="pa-0 ma-0" no-gutters>
+    <v-row class="pa-0 ma-0" no-gutters style="background: #3a3017">
       <v-col class="pa-0 ma-0" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
@@ -245,7 +245,7 @@
       <h3 class="font-weight-light text-h3 my-12">Other Members</h3>
 
       <v-container style="max-width: 1185px">
-        <v-row>
+        <v-row class="mb-2">
           <v-col cols="12" md="4">
             <h5 class="text-h5 font-weight-bold text-center mb-6">
               MECHANICAL

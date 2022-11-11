@@ -5,7 +5,7 @@
         class="pa-0 ma-0 elevation-24"
         :max-height="$vuetify.breakpoint.mdAndUp ? 'calc(100vh - 108px)' : ''"
         src="@/assets/contact.jpg"
-        position="center bottom"
+        position="center bottom -75px"
       ></v-img>
     </v-col>
 
