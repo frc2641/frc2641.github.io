@@ -1,0 +1,113 @@
+<template>
+  <div>
+    <v-row class="pa-0 ma-0" no-gutters style="background: #2e0707; z-index: 7">
+      <v-col class="pa-0 ma-0" cols="12" md="6">
+        <v-img
+          class="pa-0 ma-0 elevation-24"
+          :min-height="$vuetify.breakpoint.mdAndUp ? 'calc(100vh - 64px)' : ''"
+          src="@/assets/sponsor.jpg"
+        ></v-img>
+      </v-col>
+
+      <v-col
+        cols="12"
+        md="6"
+        :style="
+          $vuetify.breakpoint.mdAndUp
+            ? 'padding: 75px 150px 25px 150px'
+            : 'padding: 24px'
+        "
+        style="max-width: 892.5px"
+      >
+        <h2 class="text-h2 mb-5">Why sponsor us?</h2>
+        <p class="grey--text mb-6">
+          We rely on donations from generous people like you.
+        </p>
+
+        <v-divider></v-divider>
+
+        <p class="mt-6">
+          As you know, all of this takes money. Will you help? FIRST likes to
+          say their high school clubs are the “ultimate sport for the mind.”
+        </p>
+        <p>
+          Under strict rules, set timeframes, and limited resources, our team is
+          challenged to secure funds (via sponsorships and fundraisers); design
+          a team "brand"; hone teamwork skills; and build and program an
+          industrial-size robot to play a difficult field game against
+          like-minded competitors.
+        </p>
+        <p>
+          The hands-on program embodies Science, Technology, Engineering, and
+          Mathematics (STEM) and promotes career pathways, as well as nurtures
+          leadership, teamwork, public speaking/presenting, and
+          interpersonal/business communications.
+        </p>
+        <p>
+          Our program requires a serious amount of funding, most of which is
+          provided by our generous donors.
+        </p>
+        <p>
+          Your contribution will enable our members to develop their talents
+          with confidence and helps us offer this unique high school experience
+          as the perfect inspiration and training.
+        </p>
+        <v-btn
+          link
+          to="/contact"
+          large
+          class="mt-2 elevation-24"
+          color="primary"
+          >Sponsor Us Today</v-btn
+        >
+      </v-col>
+    </v-row>
+
+    <v-container style="max-width: 1185px" class="pa-0">
+      <div style="padding: 75px 0px" class="text-center">
+        <h2 class="text-h2 ma-5">Our Sponsors</h2>
+        <p class="grey--text mb-0 pb-0">for the 2022-23 Season</p>
+      </div>
+    </v-container>
+
+    <div
+      style="background: #1f2937; z-index: 10"
+      class="text-center elevation-24"
+    >
+      <v-container>
+        <h4 class="text-h4 font-weight-bold my-6 text-center">PLATINUM</h4>
+
+        <p>Good Orthodontics</p>
+        <p>OakRidge Consulting</p>
+        <p>Connolly, Steele, and Company, P.C.</p>
+      </v-container>
+    </div>
+
+    <div
+      style="background: #41320a; z-index: 9"
+      class="text-center elevation-24"
+    >
+      <v-container>
+        <h4 class="text-h4 font-weight-bold my-6 text-center">GOLD</h4>
+        <p>APICS Pittsburgh</p>
+      </v-container>
+    </div>
+
+    <div
+      style="background: #0c1736; z-index: 8"
+      class="text-center elevation-24"
+    >
+      <v-container>
+        <h4 class="text-h4 font-weight-bold my-6 text-center">BLUE</h4>
+        <p>Rocco and Regina Romano</p>
+        <p>Gary and Sue Hudak</p>
+      </v-container>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Sponsors",
+};
+</script>

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunk_2641_website"]=self["webpackChunk_2641_website"]||[]).push([[85],{7085:function(e,n,s){s.r(n),s.d(n,{default:function(){return c}});var u=function(){var e=this,n=e._self._c;return n("div",[e._v("Seasons")])},t=[],l={name:"Seasons"},r=l,a=s(1001),i=(0,a.Z)(r,u,t,!1,null,null,null),c=i.exports}}]);
-//# sourceMappingURL=85.e6f2a9cc.js.map

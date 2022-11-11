@@ -17,7 +17,7 @@ const routes = [
 	{
 		path: "/seasons",
 		name: "Seasons",
-		component: () => import("../views/Seasons.vue"),
+		component: () => import("../views/Sponsors.vue"),
 	},
 	{
 		path: "/gallery",
@@ -28,6 +28,11 @@ const routes = [
 		path: "/contact",
 		name: "Contact",
 		component: () => import("../views/Contact.vue"),
+	},
+	{
+		path: "/sponsors",
+		name: "Sponsors",
+		component: () => import("../views/Sponsors.vue"),
 	},
 ];
 
