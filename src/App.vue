@@ -26,7 +26,7 @@
         <!-- <v-btn text large link to="/gallery">Gallery</v-btn> -->
         <v-btn text large link to="/sponsors">Sponsors</v-btn>
         <v-btn text large link to="/contact">Contact</v-btn>
-        <v-btn text large href="https://app.team2641.com"
+        <v-btn text large href="https://frc2641.aidanliddy.com"
           >Login<v-icon right>mdi-arrow-right</v-icon></v-btn
         >
       </div>
