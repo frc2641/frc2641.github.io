@@ -38,10 +38,10 @@
 
     <v-main style="height: calc(100vh - 96px); overflow: auto">
       <v-fade-transition hide-on-leave>
-        <router-view />
+        <router-view class="elevation-24" style="z-index: 1" />
       </v-fade-transition>
 
-      <v-footer sticky>
+      <v-footer sticky style="z-index: 0">
         <div class="text-center">
           <p class="pa-0 ma-0 overline" v-if="$vuetify.breakpoint.mdAndUp">
             &copy; 2022 Pittsburgh Central Catholic Robotics - Team 2641
