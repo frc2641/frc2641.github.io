@@ -62,7 +62,7 @@
             <v-img
               class="pa-0 ma-0 elevation-24"
               height="592.5px"
-              src="@/assets/cromano.jpg"
+              src="@/assets/profiles/cromano.jpg"
             ></v-img>
           </v-col>
 
@@ -98,7 +98,7 @@
             <v-img
               class="pa-0 ma-0 elevation-24"
               height="592.5px"
-              src="@/assets/kheid.jpg"
+              src="@/assets/profiles/kheid.jpg"
             ></v-img>
           </v-col>
 
@@ -134,7 +134,7 @@
             <v-img
               class="pa-0 ma-0 elevation-24"
               height="592.5px"
-              src="@/assets/aliddy.jpg"
+              src="@/assets/profiles/aliddy.jpg"
             ></v-img>
           </v-col>
 
@@ -172,7 +172,7 @@
             <v-img
               class="pa-0 ma-0 elevation-24"
               height="592.5px"
-              src="@/assets/dservello.jpg"
+              src="@/assets/profiles/dservello.jpg"
             ></v-img>
           </v-col>
 
@@ -210,7 +210,7 @@
             <v-img
               class="pa-0 ma-0 elevation-24"
               height="592.5px"
-              src="@/assets/zgeorge.jpg"
+              src="@/assets/profiles/zgeorge.jpg"
             ></v-img>
           </v-col>
 

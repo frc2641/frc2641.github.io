@@ -77,9 +77,52 @@
       <v-container>
         <h4 class="text-h4 font-weight-bold my-6 text-center">PLATINUM</h4>
 
-        <p>Good Orthodontics</p>
-        <p>OakRidge Consulting</p>
-        <p>Connolly, Steele, and Company, P.C.</p>
+        <v-row>
+          <v-col cols="12" md="6" class="text-right">
+            <div
+              @click="open('https://www.levinfurniture.com/')"
+              style="cursor: pointer"
+              class="mb-4"
+            >
+              <img src="@/assets/sponsors/levin.png" />
+            </div>
+
+            <div
+              @click="open('https://www.oakrdg.com/')"
+              style="cursor: pointer"
+              class="mb-4 mt-8"
+            >
+              <img
+                style="max-width: 350px"
+                src="@/assets/sponsors/oakridge.svg"
+              />
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="6" class="text-left">
+            <div
+              @click="open('https://www.goodorthodontics.com/')"
+              style="cursor: pointer"
+              class="mb-4"
+            >
+              <img
+                style="max-width: 350px"
+                src="@/assets/sponsors/good ortho.png"
+              />
+            </div>
+
+            <div
+              @click="open('https://www.connollysteele.com/')"
+              style="cursor: pointer"
+              class="mb-4"
+            >
+              <img
+                style="max-width: 350px"
+                src="@/assets/sponsors/connolly.png"
+              />
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
 
@@ -109,5 +152,10 @@
 <script>
 export default {
   name: "Sponsors",
+  methods: {
+    open(path) {
+      window.open(path);
+    },
+  },
 };
 </script>
