@@ -136,16 +136,16 @@
       </v-container>
     </div>
 
-    <div
+    <!-- <div
       style="background: #0c1736; z-index: 8"
       class="text-center elevation-24"
     >
       <v-container>
         <h4 class="text-h4 font-weight-bold my-6 text-center">BLUE</h4>
-        <!-- <p>Rocco and Regina Romano</p>
-        <p>Gary and Sue Hudak</p> -->
+        <p>Rocco and Regina Romano</p>
+        <p>Gary and Sue Hudak</p>
       </v-container>
-    </div>
+    </div> -->
   </div>
 </template>
 
