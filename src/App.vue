@@ -8,10 +8,10 @@
       >
         <v-img
           alt="FIRST logo"
-          class="shrink mr-3"
+          class="shrink mr-2"
           contain
           src="./assets/logo.png"
-          width="60"
+          width="50"
         />
         <v-toolbar-title class="text-h5 font-weight-light">
           FRC Team 2641

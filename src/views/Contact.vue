@@ -84,7 +84,7 @@
       ></v-textarea>
 
       <section v-if="$vuetify.breakpoint.mdAndUp">
-        <div class="d-flex mt-7">
+        <div class="d-flex mt-4">
           <v-btn href="mailto:cchsteam2641@gmail.com" icon x-large color="grey"
             ><v-icon>mdi-email</v-icon></v-btn
           >
@@ -131,7 +131,7 @@
           >
         </div>
 
-        <div class="ml-3 mt-5">
+        <div class="ml-3 mt-2">
           <p class="grey--text text--lighten-1">
             Central Catholic High School<br />
             4720 Fifth Ave,<br />
