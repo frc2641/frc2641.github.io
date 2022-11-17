@@ -80,45 +80,45 @@
         <v-row>
           <v-col cols="12" md="6" class="text-right">
             <div
-              @click="open('https://www.levinfurniture.com/')"
-              style="cursor: pointer"
-              class="mb-4"
-            >
-              <img src="@/assets/sponsors/levin.png" />
-            </div>
-
-            <div
               @click="open('https://www.oakrdg.com/')"
               style="cursor: pointer"
-              class="mb-4 mt-8"
+              class="mb-4"
             >
               <img
                 style="max-width: 350px"
                 src="@/assets/sponsors/oakridge.svg"
               />
             </div>
+
+            <div
+              @click="open('https://www.busybeaver.com/')"
+              style="cursor: pointer"
+              class="mb-4 mr-11"
+            >
+              <img
+                style="max-width: 350px"
+                src="@/assets/sponsors/busybeaver.png"
+              />
+            </div>
           </v-col>
 
           <v-col cols="12" md="6" class="text-left">
             <div
-              @click="open('https://www.goodorthodontics.com/')"
+              @click="open('https://www.levinfurniture.com/')"
               style="cursor: pointer"
-              class="mb-4"
+              class="mb-4 mt-4"
             >
-              <img
-                style="max-width: 350px"
-                src="@/assets/sponsors/good ortho.png"
-              />
+              <img src="@/assets/sponsors/levin.png" />
             </div>
 
             <div
-              @click="open('https://www.connollysteele.com/')"
+              @click="open('https://www.nvidia.com/')"
               style="cursor: pointer"
-              class="mb-4"
+              class="mb-4 mt-12 pt-4"
             >
               <img
                 style="max-width: 350px"
-                src="@/assets/sponsors/connolly.png"
+                src="@/assets/sponsors/nvidia.png"
               />
             </div>
           </v-col>
@@ -132,7 +132,7 @@
     >
       <v-container>
         <h4 class="text-h4 font-weight-bold my-6 text-center">GOLD</h4>
-        <p>APICS Pittsburgh</p>
+        <p>The Beeson Family</p>
       </v-container>
     </div>
 
@@ -142,8 +142,8 @@
     >
       <v-container>
         <h4 class="text-h4 font-weight-bold my-6 text-center">BLUE</h4>
-        <p>Rocco and Regina Romano</p>
-        <p>Gary and Sue Hudak</p>
+        <!-- <p>Rocco and Regina Romano</p>
+        <p>Gary and Sue Hudak</p> -->
       </v-container>
     </div>
   </div>
