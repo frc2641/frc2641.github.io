@@ -21,7 +21,7 @@
     >
       <h2 class="text-h2 mb-5">Contact us</h2>
       <p class="grey--text mb-6">
-        Questions? Comments? Sponsorships? Let us know.
+        Have questions or comments? Want to offer a sponsorship? Let us know.
       </p>
 
       <v-divider></v-divider>

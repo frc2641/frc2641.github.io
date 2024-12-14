@@ -32,8 +32,8 @@
         </p>
         <p>
           Under strict rules, set timeframes, and limited resources, our team is
-          challenged to secure funds (via sponsorships and fundraisers); design
-          a team "brand"; hone teamwork skills; and build and program an
+          challenged to secure funds (via sponsorships and fundraisers), design
+          a team "brand", hone teamwork skills, and build and program an
           industrial-size robot to play a difficult field game against
           like-minded competitors.
         </p>

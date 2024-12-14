@@ -36,9 +36,9 @@
           Men of Faith, Scholarship, and Service, the core values of our school.
         </p>
         <p>
-          Guiding us along the way are professional volunteer mentors; school
-          faculty and administration members; Pittsburgh Central Catholic
-          Robotics alumni; and our parents.
+          Guiding us along the way are professional volunteer mentors, school
+          faculty and administration members, Pittsburgh Central Catholic
+          Robotics alumni, and our parents.
         </p>
         <p>
           We rely on the generous donations from our sponsors. Please consider

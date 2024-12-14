@@ -26,9 +26,9 @@
         <!-- <v-btn text large link to="/gallery">Gallery</v-btn> -->
         <v-btn text large link to="/sponsors">Sponsors</v-btn>
         <v-btn text large link to="/contact">Contact</v-btn>
-        <v-btn text large href="https://frc2641.aidanliddy.com"
-          >Login<v-icon right>mdi-arrow-right</v-icon></v-btn
-        >
+        <v-btn text large href="https://www.frclookout.com">
+          Lookout<v-icon right>mdi-arrow-top-right</v-icon>
+        </v-btn>
       </div>
 
       <v-btn v-else icon large @click="drawer = !drawer"
