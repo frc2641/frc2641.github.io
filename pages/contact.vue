@@ -26,27 +26,15 @@
 
       <v-divider></v-divider>
 
-      <v-row class="pa-0 mt-6">
-        <v-col cols="6">
-          <v-text-field
-            v-model="data.first"
-            variant="solo"
-            hide-details
-            label="First name"
-          ></v-text-field>
-        </v-col>
+      <v-text-field
+        variant="solo"
+        hide-details
+        class="mb-4"
+        label="Name"
+        v-model="data.name"
+      ></v-text-field>
 
-        <v-col cols="6">
-          <v-text-field
-            v-model="data.last"
-            variant="solo"
-            hide-details
-            label="Last name"
-          ></v-text-field>
-        </v-col>
-      </v-row>
-
-      <v-row class="pa-0 mt-4">
+      <v-row class="pa-0 mt-0">
         <v-col cols="6">
           <v-text-field
             variant="solo"
@@ -126,6 +114,7 @@
           >
           <v-spacer></v-spacer>
           <v-btn
+            :disabled="!data.name || !data.phone || !data.email || !data.subject || !data.message"
             style="width: 125px"
             class="elevation-24"
             @click="send()"
@@ -142,7 +131,23 @@
 <script setup lang="ts">
   const { mdAndUp } = useDisplay();
 
-  let data = ref({})
+  let data = ref({
+    name: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
+  })
+
+  function send() {
+    const { name, phone, email, subject, message } = data.value;
+
+    const mailtoLink = `mailto:cchsteam2641@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
+
+    window.location.href = mailtoLink;
+  };
 
   useHead({
 		title: "Contact | Pittsburgh Central Catholic Robotics",
