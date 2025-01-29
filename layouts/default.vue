@@ -1,0 +1,59 @@
+<template>
+	<v-layout>
+		<v-app-bar color="#1e3a8a" class="elevation-12">
+			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
+				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
+				<v-app-bar-title style="width: 100%" class="text-h5 font-weight-light hidden-sm-and-down">FRC Team 2641</v-app-bar-title>
+			</router-link>
+
+			<v-spacer></v-spacer>
+
+			<div class="hidden-sm-and-down">
+				<v-btn size="large" link to="/" text="Home"></v-btn>
+				<v-btn size="large" link to="/about" text="About"></v-btn>
+				<v-btn size="large" link to="/sponsors" text="Sponsors"></v-btn>
+				<v-btn size="large" link to="/contact" text="Contact"></v-btn>
+				<v-btn size="large" class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-top-right"></v-btn>
+      </div>
+
+			<v-btn class="hidden-md-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
+		</v-app-bar>
+
+		<v-navigation-drawer v-model="drawer" temporary class="hidden-md-and-up">
+      <v-list density="compact">
+        <v-list-item title="Home" link to="/"></v-list-item>
+        <v-list-item title="About" link to="/about"></v-list-item>
+        <v-list-item title="Sponsors" link to="/sponsors"></v-list-item>
+        <v-list-item title="Contact" link to="/contact"></v-list-item>
+        <v-list-item title="Lookout for FRC" append-icon="mdi-arrow-top-right" href="https://www.frclookout.com" target="_blank"></v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+		<v-main style="height: 100vh; overflow-y: auto">
+			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
+
+			<v-footer :style="`display: ${smAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
+				<img src="@/assets/seal.webp" height="175px" class="mr-4">
+				<div>
+					<p class="text-overline mb-n2">FRC Team 2641</p>
+					<h6 class="text-h6 mb-3">Pittsburgh Central Catholic Robotics</h6>
+					<p class="text-body-2">Central Catholic High School</p>
+					<p class="text-body-2">4720 Fifth Ave</p>
+					<p class="text-body-2">Pittsburgh, PA 15213</p>
+					<p class="text-body-2"><a href="https://www.centralcatholichs.com" target="_blank">www.centralcatholichs.com</a></p>
+					<p class="text-body-2 mb-3"><a href="tel:4122083400">(412) 208-3400</a></p>
+					<p class="text-body-2 mb-3 font-italic">Pro Deo et Patria</p>
+					<p class="text-body-2 mb-3 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
+					<p class="text-body-2 mb-3 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
+					<p class="text-body-2 font-italic transparent-subtitle">Web Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
+				</div>
+			</v-footer>
+		</v-main>
+	</v-layout>
+</template>
+
+<script setup lang="ts">
+	const { smAndUp } = useDisplay();
+
+	let drawer = ref(false)
+</script>
