@@ -10,7 +10,7 @@
         class="text-h2 text-center"
         style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9); margin-top: 150px"
       >
-        Pittsburgh Central&nbsp;<br class="hidden-md-and-up" />Catholic Robotics
+        Pittsburgh Central&nbsp;<br class="hidden-lg-and-up" />Catholic Robotics
       </h2>
       <h5
         class="text-h5 text-center mt-6"

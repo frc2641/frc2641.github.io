@@ -3,7 +3,10 @@
 		<v-app-bar color="#1e3a8a" class="elevation-12">
 			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
-				<v-app-bar-title style="width: 100%" class="text-h5 font-weight-light hidden-sm-and-down">FRC Team 2641</v-app-bar-title>
+				<v-app-bar-title style="width: 100%" class="hidden-md-and-down">
+					<p class="text-overline mb-n2 mt-n1">FRC Team 2641</p>
+					<h5 class="text-h5">Pittsburgh Central Catholic Robotics</h5>
+				</v-app-bar-title>
 			</router-link>
 
 			<v-spacer></v-spacer>
@@ -19,7 +22,7 @@
 			<v-btn class="hidden-md-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
 		</v-app-bar>
 
-		<v-navigation-drawer v-model="drawer" temporary class="hidden-md-and-up">
+		<v-navigation-drawer v-model="drawer" location="right" temporary class="hidden-md-and-up">
       <v-list density="compact">
         <v-list-item title="Home" link to="/"></v-list-item>
         <v-list-item title="About" link to="/about"></v-list-item>
@@ -32,7 +35,7 @@
 		<v-main style="height: 100vh; overflow-y: auto">
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
-			<v-footer :style="`display: ${smAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
+			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
 				<img src="@/assets/seal.webp" height="175px" class="mr-4">
 				<div>
 					<p class="text-overline mb-n2">FRC Team 2641</p>
@@ -53,7 +56,22 @@
 </template>
 
 <script setup lang="ts">
-	const { smAndUp } = useDisplay();
+	const { mdAndUp } = useDisplay();
 
 	let drawer = ref(false)
 </script>
+
+<style>
+	.v-list-item {
+		border-radius: 12px !important;
+		margin: 0px 6px;
+	}
+
+	.v-list-item__prepend > .v-badge .v-icon,
+	.v-list-item__prepend > .v-icon,
+	.v-list-item__append > .v-badge .v-icon,
+	.v-list-item__append > .v-icon,
+	.v-list-item .v-avatar {
+		margin-left: -6px;
+	}
+</style>
