@@ -3,7 +3,7 @@
     <v-col cols="12" md="6">
       <v-img
         class="pa-0 ma-0 elevation-24"
-        :min-height="mdAndUp ? 'calc(100vh - 64px)' : ''"
+        :min-height="mdAndUp ? 'calc(100dvh - 64px)' : ''"
         src="@/assets/contact.webp"
         cover
       ></v-img>

@@ -1,8 +1,8 @@
 <template>
-	<div style="height: calc(100vh - 64px); overflow-y: auto">
+	<div style="height: calc(100dvh - 64px); overflow-y: auto">
     <v-img
       src="@/assets/cchs.webp"
-      max-width="100vw"
+      max-width="100dvw"
 			cover
 			style="height: 100%"
     >

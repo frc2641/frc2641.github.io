@@ -1,8 +1,8 @@
 <template>
 	<v-app>
-		<v-main class="text-center px-4" style="height: 100vh; overflow-y: auto; max-width: 100vw; overflow-x: hidden">
+		<v-main class="text-center px-4" style="height: 100dvh; overflow-y: auto; max-width: 100dvw; overflow-x: hidden">
 			<div class="mt-12 mb-6">
-				<video autoplay loop style="max-width: calc(100vw - 32px)" src="~/assets/upturned.webm" alt="Upturned" class="rounded-lg elevation-12" />
+				<video autoplay loop style="max-width: calc(100dvw - 32px)" src="~/assets/upturned.webm" alt="Upturned" class="rounded-lg elevation-12" />
 			</div>
 			<h4 class="text-h4 mb-8">An error has occurred!</h4>
 			<p class="mb-1">Status Code</p>

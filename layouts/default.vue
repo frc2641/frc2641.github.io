@@ -32,10 +32,10 @@
       </v-list>
     </v-navigation-drawer>
 
-		<v-main style="height: 100vh; overflow-y: auto">
+		<v-main style="height: 100dvh; overflow-y: auto">
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
-			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
+			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12dvw" class="py-5">
 				<div class="mr-6">
 					<img src="@/assets/seal.webp" height="175px">
 					<div class="d-flex mx-n2 mb-2" :style="`justify-content: ${mdAndUp ? 'center' : ''}`">
@@ -98,7 +98,7 @@
 					<p class="text-body-2">Pittsburgh, PA 15213</p>
 					<p class="text-body-2"><a href="https://www.centralcatholichs.com" target="_blank">www.centralcatholichs.com</a></p>
 					<p class="text-body-2 mb-3"><a href="tel:4122083400">(412) 208-3400</a></p>
-					<p class="text-body-2 mb-3 font-italic">Pro Deo et Patria</p>
+					<p class="text-body-1 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2 mb-3 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
 					<p class="text-body-2 mb-3 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
 					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
