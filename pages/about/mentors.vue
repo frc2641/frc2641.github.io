@@ -80,6 +80,7 @@
       position: "Faculty Moderator",
       expertise: 'Mechanical',
       career: 'Engineering Teacher,<br>Central Catholic High School',
+      education: 'MS, Education,<br>Edinboro University',
       teams: [],
       image: '/mentors/kheid.webp',
     },

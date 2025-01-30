@@ -56,7 +56,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
@@ -93,11 +93,11 @@
       <v-col
         cols="12"
         md="6"
-        :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
-        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in the Oakland neighborhood of Pittsburgh.</p>
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in Oakland.</p>
         <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are conveniently located near several academic institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
         <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -2dvh; left: 3dvw; width: 20dvh; opacity: 0.5;">
         <div>
