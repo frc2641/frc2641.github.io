@@ -8,7 +8,7 @@
     >
       <h2
         class="text-h2 text-center"
-        style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9); margin-top: 150px"
+        style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9); margin-top: 15dvh"
       >
         Pittsburgh Central&nbsp;<br class="hidden-lg-and-up" />Catholic Robotics
       </h2>
