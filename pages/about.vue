@@ -1,10 +1,11 @@
 <template>
   <div>
-    <v-row class="pa-0 ma-0" no-gutters style="background: #3a3017">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737">
       <v-col class="pa-0 ma-0" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
           :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
+          style="height: 100%"
           src="@/assets/about.webp"
           cover
         ></v-img>
@@ -13,7 +14,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
       >
         <h2 class="text-h2 mb-5">About us</h2>
         <p class="transparent-subtitle mb-6">Learn more about our team.</p>
@@ -133,7 +134,7 @@
 </template>
 
 <script setup lang="ts">
-  const { mdAndUp } = useDisplay();
+  const { mdAndUp, lgAndUp } = useDisplay();
 
   useHead({
 		title: "About | Pittsburgh Central Catholic Robotics",

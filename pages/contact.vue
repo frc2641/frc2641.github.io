@@ -4,6 +4,7 @@
       <v-img
         class="pa-0 ma-0 elevation-24"
         :min-height="mdAndUp ? 'calc(100dvh - 64px)' : ''"
+        style="height: 100%"
         src="@/assets/contact.webp"
         cover
       ></v-img>
@@ -12,7 +13,7 @@
     <v-col
       cols="12"
       md="6"
-      :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
+      :style="lgAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
     >
       <h2 class="text-h2 mb-5">Contact us</h2>
       <p class="transparent-subtitle mb-6">Have questions or comments? Want to offer a sponsorship? Let us know.</p>
@@ -140,7 +141,7 @@
 </template>
 
 <script setup lang="ts">
-  const { mdAndUp, smAndUp } = useDisplay();
+  const { mdAndUp, smAndUp, lgAndUp } = useDisplay();
 
   let data = ref({
     name: "",

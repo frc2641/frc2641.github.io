@@ -41,10 +41,10 @@
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 6">
+    <v-row class="pa-0 ma-0 elevation-24" no-gutters style="background: #0c1737; z-index: 6">
       <v-col class="pa-0 ma-0" cols="12" md="6">
         <v-img
-          class="pa-0 ma-0"
+          class="pa-0 ma-0 elevation-24"
           :height="mdAndUp ? '40dvh' : ''"
           src="@/assets/intro.webp"
           cover
@@ -56,7 +56,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="mdAndUp ? 'padding: 25px 150px 25px 150px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
@@ -77,7 +77,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0" no-gutters style="background: #2e0707; z-index: 4">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 4">
       <v-col class="pa-0 ma-0 order-first order-md-last" cols="12" md="6">
         <v-img
           class="pa-0 ma-0"
@@ -92,7 +92,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="mdAndUp ? 'padding: 25px 150px 25px 150px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
@@ -105,7 +105,7 @@
             target="_blank"
             size="large"
             class="my-2 elevation-24"
-            color="secondary"
+            color="primary"
             text="About CCHS"
             append-icon="mdi-arrow-top-right"
             style="z-index: 4"
@@ -117,7 +117,7 @@
 </template>
 
 <script setup lang="ts">
-	const { smAndDown, mdAndUp } = useDisplay();
+	const { smAndDown, mdAndUp, lgAndUp } = useDisplay();
 
 	useHead({
 		title: "FRC Team 2641 | Pittsburgh Central Catholic Robotics",

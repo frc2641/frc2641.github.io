@@ -5,6 +5,7 @@
         <v-img
           class="pa-0 ma-0 elevation-24"
           :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
+          style="height: 100%"
           src="@/assets/sponsor.webp"
           cover
         ></v-img>
@@ -13,7 +14,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
       >
         <h2 class="text-h2 mb-5">Why sponsor us?</h2>
         <p class="transparent-subtitle mb-6">We rely on donations from generous people like you.</p>
@@ -139,7 +140,7 @@
 </template>
 
 <script setup lang="ts">
-  const { mdAndUp } = useDisplay();
+  const { mdAndUp, lgAndUp } = useDisplay();
 
   useHead({
 		title: "Sponsors | Pittsburgh Central Catholic Robotics",
