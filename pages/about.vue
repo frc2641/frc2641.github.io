@@ -68,7 +68,7 @@
     </v-row>
 
     <div class="text-center">
-      <h3 class="font-weight-light text-h3 my-12">Our Team</h3>
+      <h3 class="font-weight-light text-h3 mt-12 mb-8">Our Team</h3>
 
       <v-container style="max-width: 800px">
         <v-row class="mb-4">

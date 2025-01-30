@@ -36,7 +36,7 @@
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
 			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
-				<div class="mr-4">
+				<div class="mr-6">
 					<img src="@/assets/seal.webp" height="175px">
 					<div class="d-flex mx-n2 mb-2" :style="`justify-content: ${mdAndUp ? 'center' : ''}`">
 						<v-btn
