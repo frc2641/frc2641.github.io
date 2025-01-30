@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.team2641.com/</loc>
-    <lastmod>2024-10-26T02:26:42+00:00</lastmod>
+    <lastmod>2025-01-30T02:26:42+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.team2641.com/about</loc>
-    <lastmod>2024-10-26T02:26:42+00:00</lastmod>
+    <lastmod>2025-01-30T02:26:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.team2641.com/sponors</loc>
-    <lastmod>2024-10-26T02:26:42+00:00</lastmod>
+    <lastmod>2025-01-30T02:26:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.team2641.com/contact</loc>
-    <lastmod>2024-10-26T02:26:42+00:00</lastmod>
+    <lastmod>2025-01-30T02:26:42+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>

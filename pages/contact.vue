@@ -114,13 +114,12 @@
           ></v-btn>
         </div>
 
-        <div class="ml-3 mt-4">
-          <p class="text-grey-lighten-1">
-            Central Catholic High School<br />
-            ATTN: Kevin Heid<br />
-            4720 Fifth Ave<br />
-            Pittsburgh, PA 15213
-          </p>
+        <div class="ml-3 mt-4 text-grey-lighten-1">
+          <p class="font-weight-bold mb-2">Mailing:</p>
+          <p>Central Catholic High School</p>
+          <p>ATTN: Kevin Heid</p>
+          <p>4720 Fifth Ave</p>
+          <p>Pittsburgh, PA 15213</p>
         </div>
       </section>
     </v-col>
