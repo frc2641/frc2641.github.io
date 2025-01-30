@@ -4,7 +4,7 @@
 			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
 				<v-app-bar-title style="width: 100%" class="hidden-md-and-down">
-					<p class="text-overline mb-n2 mt-n1">FRC Team 2641</p>
+					<p class="text-overline mt-n1" style="margin-bottom: -9px">FRC Team 2641</p>
 					<h5 class="text-h5">Pittsburgh Central Catholic Robotics</h5>
 				</v-app-bar-title>
 			</router-link>
@@ -91,16 +91,16 @@
 					</div>
 				</div>
 				<div>
-					<p class="text-overline mb-n1">FRC Team 2641</p>
+					<p class="text-overline" style="margin-bottom: -5px">FRC Team 2641</p>
 					<h6 class="text-h6 mb-2" style="line-height: 28px">Pittsburgh Central&nbsp;<br class="hidden-md-and-up" />Catholic Robotics</h6>
 					<p class="text-body-1 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2">Central Catholic High School</p>
 					<p class="text-body-2">4720 Fifth Ave</p>
 					<p class="text-body-2">Pittsburgh, PA 15213</p>
 					<p class="text-body-2"><a href="https://www.centralcatholichs.com" target="_blank">www.centralcatholichs.com</a></p>
-					<p class="text-body-2 mb-3"><a href="tel:4122083400">(412) 208-3400</a></p>
-					<p class="text-body-2 mb-3 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
-					<p class="text-body-2 mb-3 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
+					<p class="text-body-2 mb-4"><a href="tel:4122083400">(412) 208-3400</a></p>
+					<p class="text-body-2 mb-2 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
+					<p class="text-body-2 mb-2 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
 					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
 				</div>
 			</v-footer>
