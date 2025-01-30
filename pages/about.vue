@@ -13,11 +13,7 @@
       <v-col
         cols="12"
         md="6"
-        :style="
-          mdAndUp
-            ? 'padding: 75px 150px 25px 150px'
-            : 'padding: 24px'
-        "
+        :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
         style="max-width: 892.5px"
       >
         <h2 class="text-h2 mb-5">About us</h2>

@@ -12,17 +12,11 @@
     <v-col
       cols="12"
       md="6"
-      :style="
-        mdAndUp
-          ? 'padding: 75px 150px 25px 150px'
-          : 'padding: 24px'
-      "
+      :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
       style="max-width: 892.5px"
     >
       <h2 class="text-h2 mb-5">Contact us</h2>
-      <p class="transparent-subtitle mb-6">
-        Have questions or comments? Want to offer a sponsorship? Let us know.
-      </p>
+      <p class="transparent-subtitle mb-6">Have questions or comments? Want to offer a sponsorship? Let us know.</p>
 
       <v-divider></v-divider>
 
@@ -75,43 +69,38 @@
         <div class="d-flex mt-6">
           <v-btn
             href="mailto:cchsteam2641@gmail.com"
-            icon
+            icon="mdi-email"
             variant="text"
             color="grey"
-            ><v-icon>mdi-email</v-icon></v-btn
-          >
+          ></v-btn>
           <v-btn
             target="_blank"
             href="https://www.instagram.com/frc2641"
-            icon
+            icon="mdi-instagram"
             variant="text"
             color="grey"
-            ><v-icon>mdi-instagram</v-icon></v-btn
-          >
+          ></v-btn>
           <v-btn
             target="_blank"
             href="https://www.facebook.com/Team2641Pccr"
-            icon
+            icon="mdi-facebook"
             variant="text"
             color="grey"
-            ><v-icon>mdi-facebook</v-icon></v-btn
-          >
+          ></v-btn>
           <v-btn
             target="_blank"
             href="https://twitter.com/FRC2641"
-            icon
+            icon="mdi-twitter"
             variant="text"
             color="grey"
-            ><v-icon>mdi-twitter</v-icon></v-btn
-          >
+          ></v-btn>
           <v-btn
             target="_blank"
             href="https://github.com/CentralCatholic2641"
-            icon
+            icon="mdi-github"
             variant="text"
             color="grey"
-            ><v-icon>mdi-github</v-icon></v-btn
-          >
+          ></v-btn>
           <v-spacer></v-spacer>
           <v-btn
             :disabled="!data.name || !data.phone || !data.email || !data.subject || !data.message"
@@ -120,8 +109,9 @@
             @click="send()"
             size="large"
             color="primary"
-            >Send<v-icon class="ml-3" size="24">mdi-send</v-icon></v-btn
-          >
+            text="Send"
+            append-icon="mdi-send"
+          ></v-btn>
         </div>
 
         <div class="ml-3 mt-4">

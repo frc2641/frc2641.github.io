@@ -13,17 +13,11 @@
       <v-col
         cols="12"
         md="6"
-        :style="
-          mdAndUp
-            ? 'padding: 75px 150px 25px 150px'
-            : 'padding: 24px'
-        "
+        :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
         style="max-width: 892.5px"
       >
         <h2 class="text-h2 mb-5">Why sponsor us?</h2>
-        <p class="transparent-subtitle mb-6">
-          We rely on donations from generous people like you.
-        </p>
+        <p class="transparent-subtitle mb-6">We rely on donations from generous people like you.</p>
 
         <v-divider></v-divider>
 
@@ -59,8 +53,8 @@
           size="large"
           class="mt-2 elevation-24"
           color="primary"
-          >Sponsor Us Today</v-btn
-        >
+          text="Sponsor Us Today"
+        ></v-btn>
       </v-col>
     </v-row>
 

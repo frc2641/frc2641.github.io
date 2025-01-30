@@ -32,9 +32,7 @@
 
 	useHead({
 		title: `Error ${props.error.statusCode} - FRC Team 2641`,
-		htmlAttrs: {
-			lang: "en",
-		},
+		htmlAttrs: { lang: "en" },
 		link: [
 			{
 				rel: "preconnect",

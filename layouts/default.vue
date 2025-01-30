@@ -92,13 +92,13 @@
 				</div>
 				<div>
 					<p class="text-overline mb-n2">FRC Team 2641</p>
-					<h6 class="text-h6 mb-3">Pittsburgh Central Catholic Robotics</h6>
+					<h6 class="text-h6 mb-2">Pittsburgh Central Catholic Robotics</h6>
+					<p class="text-body-1 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2">Central Catholic High School</p>
 					<p class="text-body-2">4720 Fifth Ave</p>
 					<p class="text-body-2">Pittsburgh, PA 15213</p>
 					<p class="text-body-2"><a href="https://www.centralcatholichs.com" target="_blank">www.centralcatholichs.com</a></p>
 					<p class="text-body-2 mb-3"><a href="tel:4122083400">(412) 208-3400</a></p>
-					<p class="text-body-1 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2 mb-3 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
 					<p class="text-body-2 mb-3 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
 					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>

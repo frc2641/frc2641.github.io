@@ -18,9 +18,7 @@
 
 	useHead({
 		title: 'FRC Team 2641 | Pittsburgh Central Catholic Robotics',
-		htmlAttrs: {
-			lang: "en",
-		},
+		htmlAttrs: { lang: "en" },
 		meta: [
 			{
 				name: "viewport",
