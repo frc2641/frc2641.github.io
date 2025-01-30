@@ -29,17 +29,18 @@
         </p>
         <p class="mb-3">
           In addition to gaining valuable, real-world experience in mechanical
-          engineering, electronics, and computer programming, our members become
-          Men of Faith, Scholarship, and Service, the core values of our school.
+          engineering, electronics design, and computer programming, our students
+          become Men of Faith, Scholarship, and Service, the core values of our
+          school.
         </p>
         <p class="mb-3">
           Guiding us along the way are professional volunteer mentors, school
-          faculty and administration members, Pittsburgh Central Catholic
-          Robotics alumni, and our parents.
+          faculty and administration, Pittsburgh Central Catholic Robotics
+          alumni, and our parents.
         </p>
         <p class="mb-3">
           We rely on the generous donations from our sponsors. Please consider
-          donating to our team.
+          donating to our team and supporting our mission.
         </p>
         <div class="d-flex">
           <v-btn

@@ -22,28 +22,23 @@
         <v-divider></v-divider>
 
         <p class="mt-6 mb-3">
-          As you know, all of this takes money. Will you help? FIRST likes to
-          say their high school clubs are the “ultimate sport for the mind.”
-        </p>
-        <p class="mb-3">
           Under strict rules, set time frames, and limited resources, our team is
-          challenged to secure funds (via sponsorships and fundraisers), design
-          a team "brand", hone teamwork skills, and build and program an
-          industrial-size robot to play a difficult field game against
-          like-minded competitors.
+          challenged to secure funding, design a team "brand", hone teamwork and
+          leadership skills, and build and program an industrial-size robot to
+          play a difficult field game against like-minded competitors.
         </p>
         <p class="mb-3">
           The hands-on program embodies Science, Technology, Engineering, and
           Mathematics (STEM) and promotes career pathways, as well as nurtures
-          leadership, teamwork, public speaking/presenting, and
-          interpersonal/business communications.
+          leadership, teamwork, public speaking/presenting, and interpersonal
+          and business communications.
         </p>
         <p class="mb-3">
           Our program requires a serious amount of funding, most of which is
           provided by our generous donors.
         </p>
         <p class="mb-3">
-          Your contribution will enable our members to develop their talents
+          Your contribution will enable our students to develop their talents
           with confidence and helps us offer this unique high school experience
           as the perfect inspiration and training.
         </p>
