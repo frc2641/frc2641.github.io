@@ -41,12 +41,12 @@
           We rely on the generous donations from our sponsors. Please consider
           donating to our team and supporting our mission.
         </p>
-        <div class="d-flex">
+        <div :class="{ 'd-flex': mdAndUp }">
           <v-btn
             link
             to="/sponsors"
             size="large"
-            class="mt-2 elevation-24"
+            class="mt-2 mr-4 elevation-24"
             color="primary"
             text="Our Sponsors"
           ></v-btn>
@@ -54,7 +54,7 @@
             href="https://www.centralcatholichs.com"
             target="_blank"
             size="large"
-            class="ml-4 mt-2 elevation-24"
+            class="mt-2 elevation-24"
             color="secondary"
             text="Our School"
             append-icon="mdi-arrow-top-right"

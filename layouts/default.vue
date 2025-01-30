@@ -35,7 +35,7 @@
 		<v-main style="height: 100dvh; overflow-y: auto">
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
-			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12dvw" class="py-5">
+			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-left: 12dvw" class="py-5">
 				<div class="mr-6">
 					<img src="@/assets/seal.webp" height="175px">
 					<div class="d-flex mx-n2 mb-2" :style="`justify-content: ${mdAndUp ? 'center' : ''}`">
@@ -91,8 +91,8 @@
 					</div>
 				</div>
 				<div>
-					<p class="text-overline mb-n2">FRC Team 2641</p>
-					<h6 class="text-h6 mb-2">Pittsburgh Central Catholic Robotics</h6>
+					<p class="text-overline mb-n1">FRC Team 2641</p>
+					<h6 class="text-h6 mb-2" style="line-height: 28px">Pittsburgh Central&nbsp;<br class="hidden-md-and-up" />Catholic Robotics</h6>
 					<p class="text-body-1 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2">Central Catholic High School</p>
 					<p class="text-body-2">4720 Fifth Ave</p>

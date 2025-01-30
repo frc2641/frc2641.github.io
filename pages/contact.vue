@@ -28,17 +28,16 @@
       ></v-text-field>
 
       <v-row class="pa-0 mt-0">
-        <v-col cols="6">
+        <v-col cols="12" sm="6">
           <v-text-field
             variant="solo"
             hide-details
-            class="mb-7"
             label="Phone"
             v-model="data.phone"
           ></v-text-field>
         </v-col>
 
-        <v-col cols="6">
+        <v-col cols="12" sm="6">
           <v-text-field
             variant="solo"
             hide-details
@@ -63,6 +62,20 @@
         label="Message"
         v-model="data.message"
       ></v-textarea>
+
+      <div class="d-flex mt-6" v-if="!smAndUp">
+        <v-spacer></v-spacer>
+        <v-btn
+          :disabled="!data.name || !data.phone || !data.email || !data.subject || !data.message"
+          style="width: 125px"
+          class="elevation-24"
+          @click="send()"
+          size="large"
+          color="primary"
+          text="Send"
+          append-icon="mdi-send"
+        ></v-btn>
+      </div>
 
       <section>
         <div class="d-flex mt-6">
@@ -102,6 +115,7 @@
           ></v-btn>
           <v-spacer></v-spacer>
           <v-btn
+            v-if="smAndUp"
             :disabled="!data.name || !data.phone || !data.email || !data.subject || !data.message"
             style="width: 125px"
             class="elevation-24"
@@ -126,7 +140,7 @@
 </template>
 
 <script setup lang="ts">
-  const { mdAndUp } = useDisplay();
+  const { mdAndUp, smAndUp } = useDisplay();
 
   let data = ref({
     name: "",
