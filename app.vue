@@ -110,4 +110,9 @@
 		opacity: 0.25;
 		filter: blur(0.25rem);
 	}
+
+	img {
+		pointer-events: none;
+		user-select: none;
+	}
 </style>

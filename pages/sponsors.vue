@@ -49,6 +49,7 @@
           class="mt-2 elevation-24"
           color="primary"
           text="Sponsor Us Today"
+          width="250px"
         ></v-btn>
       </v-col>
     </v-row>

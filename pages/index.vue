@@ -14,7 +14,7 @@
           <h5 class="text-h5 text-center mt-6" style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9)" >Inspiring the Engineers of Tomorrow</h5>
           <div class="text-center mt-6">
             <v-btn
-              width="175px"
+              width="185px"
               size="large"
               link
               to="/about"
@@ -24,7 +24,7 @@
             ></v-btn>
             <br v-if="smAndDown" />
             <v-btn
-              width="175px"
+              width="185px"
               size="large"
               link
               to="/sponsors"
@@ -72,6 +72,7 @@
             color="primary"
             text="About FRC"
             append-icon="mdi-arrow-top-right"
+            width="200px"
           ></v-btn>
         </div>
       </v-col>
@@ -98,7 +99,7 @@
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in the Oakland neighborhood of Pittsburgh.</p>
         <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are conveniently located near several academic institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
-        <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -2dvh; left: 3dvw; width: 20dvh; opacity: 0.4" alt="">
+        <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -2dvh; left: 3dvw; width: 20dvh; opacity: 0.5;">
         <div>
           <v-btn
             href="https://www.centralcatholichs.com"
@@ -109,6 +110,7 @@
             text="About CCHS"
             append-icon="mdi-arrow-top-right"
             style="z-index: 4"
+            width="200px"
           ></v-btn>
         </div>
       </v-col>

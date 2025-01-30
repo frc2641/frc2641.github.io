@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 7">
-      <v-col class="pa-0 ma-0 elevation-24" cols="12" md="6">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737">
+      <v-col class="pa-0 ma-0 elevation-24" cols="12" md="6" style="z-index: 7">
         <v-img
           class="pa-0 ma-0"
           :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
@@ -16,6 +16,7 @@
         md="6"
         :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
         class="elevation-24"
+        style="z-index: 6"
       >
         <h2 class="text-h2 mb-5">About us</h2>
         <p class="transparent-subtitle mb-6">Learn more about our team.</p>
@@ -51,6 +52,7 @@
             class="mt-2 mr-4 elevation-24"
             color="primary"
             text="Our Sponsors"
+            width="200px"
           ></v-btn>
           <v-btn
             href="https://www.centralcatholichs.com"
@@ -60,14 +62,15 @@
             color="secondary"
             text="Our School"
             append-icon="mdi-arrow-top-right"
+            width="200px"
           ></v-btn>
         </div>
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 6">
-      <v-col cols="12" class="text-center elevation-24">
-        <h3 class="text-h3 font-weight-light mt-12 mb-4">Our mentors</h3>
+    <v-row no-gutters class="text-center">
+      <v-col cols="12" md="6" style="background: #423619; z-index: 5" class="elevation-24">
+        <h3 class="text-h3 font-weight-light mt-12 mb-4">Mentors</h3>
         <p class="mb-6">Our dedicated mentors help us deliver a world-class experience.</p>
         <v-btn
           link
@@ -76,25 +79,30 @@
           size="large"
           color="primary"
           elevation="24"
-          text="Mentors"
-          width="150px"
+          text="See More"
+          width="175px"
+        ></v-btn>
+      </v-col>
+
+      <v-col cols="12" md="6" style="background: #2e0707; z-index: 5" class="elevation-24">
+        <h3 class="text-h3 font-weight-light mt-12 mb-4">Leaders</h3>
+        <p class="mb-6">A strong FRC team is 100% run.</p>
+        <v-btn
+          link
+          to="/about/leadership"
+          class="mb-8"
+          size="large"
+          color="secondary"
+          elevation="24"
+          text="See More"
+          width="175px"
         ></v-btn>
       </v-col>
     </v-row>
 
     <div class="text-center">
-      <h3 class="font-weight-light text-h3 mt-12 mb-4">Our team</h3>
-      <p class="mb-6">A strong FRC team is 100% student run.</p>
-      <v-btn
-        link
-        to="/about/leadership"
-        class="mb-8"
-        size="large"
-        color="secondary"
-        elevation="24"
-        text="Leaders"
-        width="150px"
-      ></v-btn>
+      <h3 class="font-weight-light text-h3 mt-12 mb-4">Team</h3>
+      <p class="mb-6">All of our team members for the 2025 season.</p>
 
       <v-container style="max-width: 900px">
         <v-row class="mb-4">

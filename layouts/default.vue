@@ -1,6 +1,6 @@
 <template>
 	<v-layout>
-		<v-app-bar color="#1e3a8a" class="elevation-12">
+		<v-app-bar color="#1e3a8a" class="elevation-12" style="user-select: none;">
 			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
 				<v-app-bar-title style="width: 100%" class="hidden-md-and-down">
