@@ -36,7 +36,60 @@
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
 			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-inline: 12vw" class="py-5">
-				<img src="@/assets/seal.webp" height="175px" class="mr-4">
+				<div class="mr-4">
+					<img src="@/assets/seal.webp" height="175px">
+					<div class="d-flex mx-n2 mb-2" :style="`justify-content: ${mdAndUp ? 'center' : ''}`">
+						<v-btn
+							href="mailto:cchsteam2641@gmail.com"
+							icon
+							variant="text"
+							color="grey"
+							size="x-small"
+						>
+							<v-icon :size="20">mdi-email</v-icon>
+						</v-btn>
+						<v-btn
+							target="_blank"
+							href="https://www.instagram.com/frc2641"
+							icon
+							variant="text"
+							color="grey"
+							size="x-small"
+						>
+							<v-icon :size="20">mdi-instagram</v-icon>
+						</v-btn>
+						<v-btn
+							target="_blank"
+							href="https://www.facebook.com/Team2641Pccr"
+							icon
+							variant="text"
+							color="grey"
+							size="x-small"
+						>
+							<v-icon :size="20">mdi-facebook</v-icon>
+						</v-btn>
+						<v-btn
+							target="_blank"
+							href="https://twitter.com/FRC2641"
+							icon
+							variant="text"
+							color="grey"
+							size="x-small"
+						>
+							<v-icon :size="20">mdi-twitter</v-icon>
+						</v-btn>
+						<v-btn
+							target="_blank"
+							href="https://github.com/CentralCatholic2641"
+							icon
+							variant="text"
+							color="grey"
+							size="x-small"
+						>
+							<v-icon :size="20">mdi-github</v-icon>
+						</v-btn>
+					</div>
+				</div>
 				<div>
 					<p class="text-overline mb-n2">FRC Team 2641</p>
 					<h6 class="text-h6 mb-3">Pittsburgh Central Catholic Robotics</h6>

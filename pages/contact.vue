@@ -29,7 +29,7 @@
       <v-text-field
         variant="solo"
         hide-details
-        class="mb-4"
+        class="mb-4 mt-8"
         label="Name"
         v-model="data.name"
       ></v-text-field>
@@ -122,6 +122,15 @@
             color="primary"
             >Send<v-icon class="ml-3" size="24">mdi-send</v-icon></v-btn
           >
+        </div>
+
+        <div class="ml-3 mt-4">
+          <p class="text-grey-lighten-1">
+            Central Catholic High School<br />
+            ATTN: Kevin Heid<br />
+            4720 Fifth Ave<br />
+            Pittsburgh, PA 15213
+          </p>
         </div>
       </section>
     </v-col>
