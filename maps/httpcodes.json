@@ -72,7 +72,7 @@
 	"208": {
 		"code": 208,
 		"message": "Already Reported",
-		"description": "The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response, and are not being included again."
+		"description": "The members of a DAV binding have already been enumerated in a preceding part of the (multi-status) response, and are not being included again."
 	},
 	"218": {
 		"code": 218,

@@ -29,7 +29,7 @@
           Founded in 2008, our team has grown to be successful over the years.
           Grounded in the principles of St. John Baptiste de La Salle, the
           patron Saint of Central Catholic High School, we strive to bring
-          success throught hard work and determination.
+          success through hard work and determination.
         </p>
         <p class="mb-3">
           In addition to gaining valuable, real-world experience in mechanical
