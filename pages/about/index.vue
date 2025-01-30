@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737">
-      <v-col class="pa-0 ma-0" cols="12" md="6">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 7">
+      <v-col class="pa-0 ma-0 elevation-24" cols="12" md="6">
         <v-img
           class="pa-0 ma-0"
           :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
@@ -15,6 +15,7 @@
         cols="12"
         md="6"
         :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
+        class="elevation-24"
       >
         <h2 class="text-h2 mb-5">About us</h2>
         <p class="transparent-subtitle mb-6">Learn more about our team.</p>
@@ -64,33 +65,28 @@
       </v-col>
     </v-row>
 
+    <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 6">
+      <v-col cols="12" class="text-center elevation-24">
+        <h3 class="text-h3 font-weight-light mt-12 mb-4">Our mentors</h3>
+        <p class="mb-6">Our dedicated mentors help us deliver a world-class experience.</p>
+        <v-btn
+          link
+          to="/about/mentors"
+          class="mb-10"
+          size="large"
+          color="primary"
+          elevation="24"
+          text="Learn More"
+        ></v-btn>
+      </v-col>
+    </v-row>
+
     <div class="text-center">
       <h3 class="font-weight-light text-h3 mt-12 mb-8">Our Team</h3>
 
-      <v-container style="max-width: 800px">
+      <v-container style="max-width: 900px">
         <v-row class="mb-4">
-          <v-col cols="12" sm="6">
-            <h5 class="text-h5 font-weight-bold text-center mb-4">HEAD COACH</h5>
-            <p>Christian Romano, '17</p>
-          </v-col>
-
-          <v-col cols="12" sm="6">
-            <h5 class="text-h5 font-weight-bold text-center mb-4">MODERATOR</h5>
-            <p>Kevin Heid</p>
-          </v-col>
-
-          <v-col cols="12" sm="4">
-            <h5 class="text-h5 font-weight-bold text-center mb-4">MENTORS</h5>
-            <p>Joe Hudak, '13</p>
-            <p>Aidan Liddy, '23</p>
-            <p>Alisha Patel</p>
-            <p>Justin Tomko</p>
-            <p>Alaina Vallus</p>
-            <p>Cam Vallus, '17</p>
-            <p>Ben Very, '23</p>
-          </v-col>
-
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SENIORS</h5>
             <p>Brenden McCarthy, '25</p>
             <p>Eden Chung, '25</p>
@@ -100,7 +96,7 @@
             <p>Luke Nuzzo, '25</p>
           </v-col>
 
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">JUNIORS</h5>
             <p>Aidan Flaherty, '26</p>
             <p>Regis Keller, '26</p>
@@ -110,7 +106,7 @@
             <p>Brayden Spencer, '26</p>
           </v-col>
 
-          <v-col cols="12" sm="6">
+          <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SOPHOMORES</h5>
             <p>Aidan Burger, '27</p>
             <p>Omar Good, '27</p>
@@ -118,7 +114,7 @@
             <p>Alex Koes, '27</p>
           </v-col>
 
-          <v-col cols="12" sm="6">
+          <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">FRESHMEN</h5>
             <p>Antonio Albert, '28</p>
             <p>Harrison Kreutel, '28</p>
