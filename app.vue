@@ -5,6 +5,12 @@
 </template>
 
 <script setup lang="ts">
+	const route = useRoute()
+
+	watch(() => route.fullPath, () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	})
+
 	useSeoMeta({
 		description: "Pittsburgh Central Catholic Robotics",
 		ogTitle: "FRC Team 2641",

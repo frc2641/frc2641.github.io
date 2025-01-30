@@ -13,7 +13,6 @@
       cols="12"
       md="6"
       :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
-      style="max-width: 892.5px"
     >
       <h2 class="text-h2 mb-5">Contact us</h2>
       <p class="transparent-subtitle mb-6">Have questions or comments? Want to offer a sponsorship? Let us know.</p>

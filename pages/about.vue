@@ -4,7 +4,7 @@
       <v-col class="pa-0 ma-0" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
-          :min-height="mdAndUp ? 'calc(100dvh - 64px)' : ''"
+          :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
           src="@/assets/about.webp"
           cover
         ></v-img>
@@ -14,7 +14,6 @@
         cols="12"
         md="6"
         :style="mdAndUp ? 'padding: 75px 150px 25px 150px' : 'padding: 24px'"
-        style="max-width: 892.5px"
       >
         <h2 class="text-h2 mb-5">About us</h2>
         <p class="transparent-subtitle mb-6">Learn more about our team.</p>
