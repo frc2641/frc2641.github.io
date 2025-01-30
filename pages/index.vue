@@ -57,7 +57,7 @@
         cols="12"
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
-        style="flex-direction: column; justify-content: center; position: relative;"
+        style="flex-direction: column; justify-content: center; position: relative; z-index: 5"
         class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
@@ -94,7 +94,7 @@
         cols="12"
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
-        style="flex-direction: column; justify-content: center; position: relative;"
+        style="flex-direction: column; justify-content: center; position: relative; z-index: 3"
         class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in Oakland.</p>
