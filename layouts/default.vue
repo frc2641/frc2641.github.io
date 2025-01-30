@@ -35,9 +35,10 @@
 		<v-main style="height: 100dvh; overflow-y: auto" id="main">
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
-			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-left: 12dvw" class="py-5">
+			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}; padding-left: ${mdAndUp ? '15dvw' : '20px'}`" style="align-items: start; z-index: 0; position: relative; overflow: hidden;" class="py-5">
 				<div class="mr-6">
-					<img src="@/assets/seal.webp" height="175px">
+					<img class="hidden-sm-and-down" style="opacity: 0.9" src="@/assets/seal.webp" height="175px">
+					<img class="hidden-md-and-up mt-n2 mb-n1" style="opacity: 0.9; margin-left: -16px" src="@/assets/seal.webp" height="175px">
 					<div class="d-flex mx-n2 mb-2" :style="`justify-content: ${mdAndUp ? 'center' : ''}`">
 						<v-btn
 							href="mailto:cchsteam2641@gmail.com"
@@ -90,6 +91,7 @@
 						</v-btn>
 					</div>
 				</div>
+
 				<div>
 					<p class="text-overline" style="margin-bottom: -5px">FRC Team 2641</p>
 					<h6 class="text-h6 mb-2" style="line-height: 28px">Pittsburgh Central&nbsp;<br class="hidden-md-and-up" />Catholic Robotics</h6>
@@ -98,11 +100,13 @@
 					<p class="text-body-2">4720 Fifth Ave</p>
 					<p class="text-body-2">Pittsburgh, PA 15213</p>
 					<p class="text-body-2"><a href="https://www.centralcatholichs.com" target="_blank">www.centralcatholichs.com</a></p>
-					<p class="text-body-2 mb-4"><a href="tel:4122083400">(412) 208-3400</a></p>
-					<p class="text-body-2 mb-2 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
-					<p class="text-body-2 mb-2 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
+					<p class="text-body-2 mb-3"><a href="tel:4122083400">(412) 208-3400</a></p>
+					<p class="text-body-2 mb-2 transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
 					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
 				</div>
+
+        <img class="hidden-sm-and-down" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; top: -10dvh; right: 15dvw; width: 30dvh; opacity: 0.2;">
+				<img class="hidden-md-and-up" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; bottom: -5dvh; right: -5dvh; width: 30dvh; opacity: 0.15;">
 			</v-footer>
 		</v-main>
 	</v-layout>

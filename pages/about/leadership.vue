@@ -11,7 +11,7 @@
       <v-row>
         <v-col cols="12" sm="6" v-for="season in seasons">
           <v-card style="position: relative;">
-            <p class="text-overline ml-4 mt-2 mb-n4 text-grey-lighten-1" v-html="season.year"></p>
+            <p class="text-overline ml-4 mt-2 mb-n4 text-grey-lighten-1">{{ season.year }}</p>
             <v-card-title class="text-h5" v-html="season.game"></v-card-title>
 
             <v-card-text class="mt-n4">

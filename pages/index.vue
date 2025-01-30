@@ -1,7 +1,7 @@
 <template>
 	<div>
     <v-row class="pa-0 ma-0" no-gutters :style="`height: ${mdAndUp ? 'calc(100dvh - 150px)' : ''}`">
-      <v-col class="pa-0 ma-0" cols="12" style="height: 0%;">
+      <v-col class="pa-0 ma-0 elevation-24" cols="12" style="height: 0%;">
         <v-img
           src="@/assets/cchs.webp"
           max-width="100dvw"
@@ -11,7 +11,7 @@
           style="z-index: 7"
         >
           <h2 class="text-h2 text-center" style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9); margin-top: 15dvh">Pittsburgh Central&nbsp;<br class="hidden-lg-and-up" />Catholic Robotics</h2>
-          <h5 class="text-h5 text-center mt-6" style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9)" >Inspiring the Engineers of Tomorrow</h5>
+          <h5 class="text-h5 text-center mt-6" style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9)" >Inspiring the&nbsp;<br class="hidden-lg-and-up" />Engineers of Tomorrow</h5>
           <div class="text-center mt-6">
             <v-btn
               width="185px"
@@ -41,8 +41,8 @@
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0 elevation-24" no-gutters style="background: #0c1737; z-index: 6">
-      <v-col class="pa-0 ma-0" cols="12" md="6">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 6">
+      <v-col class="pa-0 ma-0 elevation-24" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
           :height="mdAndUp ? '40dvh' : ''"
@@ -58,7 +58,7 @@
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
-        class="d-flex"
+        class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
         <p class="text-h5 mb-4 font-weight-thin" style="z-index: 6">Our mission is to provide students with a strong environment to develop their skills in STEM fields and become the future leaders of their community.</p>
@@ -81,7 +81,7 @@
     <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 4">
       <v-col class="pa-0 ma-0 order-first order-md-last" cols="12" md="6">
         <v-img
-          class="pa-0 ma-0"
+          class="pa-0 ma-0 elevation-24"
           :height="mdAndUp ? '40dvh' : ''"
           src="@/assets/school.webp"
           cover
@@ -95,11 +95,11 @@
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
-        class="d-flex"
+        class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in Oakland.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are conveniently located near several academic institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
-        <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -2dvh; left: 3dvw; width: 20dvh; opacity: 0.5;">
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are located near several higher education institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
+        <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -3dvh; left: 3dvw; width: 20dvh; opacity: 0.3;">
         <div>
           <v-btn
             href="https://www.centralcatholichs.com"
