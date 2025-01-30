@@ -12,11 +12,11 @@
 			<v-spacer></v-spacer>
 
 			<div class="hidden-sm-and-down">
-				<v-btn size="large" link to="/" text="Home"></v-btn>
-				<v-btn size="large" link to="/about" text="About"></v-btn>
-				<v-btn size="large" link to="/sponsors" text="Sponsors"></v-btn>
-				<v-btn size="large" link to="/contact" text="Contact"></v-btn>
-				<v-btn size="large" class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-right"></v-btn>
+				<v-btn link to="/" text="Home"></v-btn>
+				<v-btn link to="/about" text="About"></v-btn>
+				<v-btn link to="/sponsors" text="Sponsors"></v-btn>
+				<v-btn link to="/contact" text="Contact"></v-btn>
+				<v-btn class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-right"></v-btn>
       </div>
 
 			<v-btn class="hidden-md-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>

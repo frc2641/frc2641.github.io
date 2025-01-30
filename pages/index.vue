@@ -56,19 +56,19 @@
       <v-col
         cols="12"
         md="6"
-        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
-        <p class="text-h5 mb-4" style="z-index: 6">Team 2641 is a FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 6">Our mission is to provide students with a competitive environment to develop their skills in STEM and become leaders in their community.</p>
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 6">Our mission is to provide students with a strong environment to develop their skills in STEM fields and become the future leaders of their community.</p>
         <img src="@/assets/first.svg" style="z-index: 5; position: absolute; top: -5dvh; right: 3dvw; width: 30dvh" alt="">
         <div>
           <v-btn
             href="https://www.firstinspires.org/robotics/frc"
             target="_blank"
             size="large"
-            class="my-2 elevation-24"
+            class="mt-2 elevation-24"
             color="primary"
             text="About FRC"
             append-icon="mdi-arrow-top-right"
@@ -92,19 +92,19 @@
       <v-col
         cols="12"
         md="6"
-        :style="lgAndUp ? 'padding: 100px' : 'padding: 24px'"
+        :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
         style="flex-direction: column; justify-content: center; position: relative;"
         class="d-flex"
       >
-        <p class="text-h5 mb-4" style="z-index: 4">Our students are from Central Catholic High School, a private, Roman Catholic, all-boys college preparatory school in the Oakland neighborhood of Pittsburgh.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are conveniently located near our partners, the University of Pittsburgh and Carnegie Mellon University.</p>
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in the Oakland neighborhood of Pittsburgh.</p>
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are conveniently located near several academic institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
         <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -2dvh; left: 3dvw; width: 20dvh; opacity: 0.4" alt="">
         <div>
           <v-btn
             href="https://www.centralcatholichs.com"
             target="_blank"
             size="large"
-            class="my-2 elevation-24"
+            class="mt-2 elevation-24"
             color="primary"
             text="About CCHS"
             append-icon="mdi-arrow-top-right"
