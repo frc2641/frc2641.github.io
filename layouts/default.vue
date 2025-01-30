@@ -16,7 +16,7 @@
 				<v-btn size="large" link to="/about" text="About"></v-btn>
 				<v-btn size="large" link to="/sponsors" text="Sponsors"></v-btn>
 				<v-btn size="large" link to="/contact" text="Contact"></v-btn>
-				<v-btn size="large" class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-top-right"></v-btn>
+				<v-btn size="large" class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-right"></v-btn>
       </div>
 
 			<v-btn class="hidden-md-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
@@ -28,7 +28,7 @@
         <v-list-item title="About" link to="/about"></v-list-item>
         <v-list-item title="Sponsors" link to="/sponsors"></v-list-item>
         <v-list-item title="Contact" link to="/contact"></v-list-item>
-        <v-list-item title="Lookout for FRC" append-icon="mdi-arrow-top-right" href="https://www.frclookout.com" target="_blank"></v-list-item>
+        <v-list-item title="Lookout for FRC" append-icon="mdi-arrow-right" href="https://www.frclookout.com" target="_blank"></v-list-item>
       </v-list>
     </v-navigation-drawer>
 

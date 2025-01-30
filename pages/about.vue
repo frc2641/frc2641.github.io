@@ -45,14 +45,25 @@
           We rely on the generous donations from our sponsors. Please consider
           donating to our team.
         </p>
-        <v-btn
-          link
-          to="/sponsors"
-          size="large"
-          class="mt-2 elevation-24"
-          color="primary"
-          >Our Sponsors</v-btn
-        >
+        <div class="d-flex">
+          <v-btn
+            link
+            to="/sponsors"
+            size="large"
+            class="mt-2 elevation-24"
+            color="primary"
+            text="Our Sponsors"
+          ></v-btn>
+          <v-btn
+            href="https://www.centralcatholichs.com"
+            target="_blank"
+            size="large"
+            class="ml-4 mt-2 elevation-24"
+            color="secondary"
+            text="Our School"
+            append-icon="mdi-arrow-top-right"
+          ></v-btn>
+        </div>
       </v-col>
     </v-row>
 
@@ -62,19 +73,27 @@
       <v-container style="max-width: 900px">
         <v-row class="mb-4">
           <v-col cols="12" sm="6">
-            <h5 class="text-h5 font-weight-bold text-center mb-4">MENTORS</h5>
+            <h5 class="text-h5 font-weight-bold text-center mb-4">HEAD COACH</h5>
+            <p>Christian Romano, '17</p>
+          </v-col>
+
+          <v-col cols="12" sm="6">
+            <h5 class="text-h5 font-weight-bold text-center mb-4">MODERATOR</h5>
             <p>Kevin Heid</p>
+          </v-col>
+
+          <v-col cols="12" sm="4">
+            <h5 class="text-h5 font-weight-bold text-center mb-4">MENTORS</h5>
             <p>Joe Hudak, '13</p>
             <p>Aidan Liddy, '23</p>
             <p>Alisha Patel</p>
-            <p>Christian Romano, '17</p>
             <p>Justin Tomko</p>
             <p>Alaina Vallus</p>
             <p>Cam Vallus, '17</p>
             <p>Ben Very, '23</p>
           </v-col>
 
-          <v-col cols="12" sm="6">
+          <v-col cols="12" sm="4">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SENIORS</h5>
             <p>Brenden McCarthy, '25</p>
             <p>Eden Chung, '25</p>
@@ -94,7 +113,7 @@
             <p>Brayden Spencer, '26</p>
           </v-col>
 
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="6">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SOPHOMORES</h5>
             <p>Aidan Burger, '27</p>
             <p>Omar Good, '27</p>
@@ -102,7 +121,7 @@
             <p>Alex Koes, '27</p>
           </v-col>
 
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="6">
             <h5 class="text-h5 font-weight-bold text-center mb-4">FRESHMEN</h5>
             <p>Antonio Albert, '28</p>
             <p>Harrison Kreutel, '28</p>
