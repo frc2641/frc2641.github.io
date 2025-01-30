@@ -57,11 +57,11 @@
           position: 'Code Team Lead',
         },
         {
-          name: "Luke Nuzzo, '25",
+          name: "-",
           position: 'Driver'
         },
         {
-          name: "Brenden McCarthy, '25",
+          name: "-",
           position: 'Operator'
         }
       ]
