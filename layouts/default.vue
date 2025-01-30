@@ -101,7 +101,7 @@
 					<p class="text-body-2 mb-3 font-italic">Pro Deo et Patria</p>
 					<p class="text-body-2 mb-3 hidden-sm-and-down transparent-subtitle">&copy; {{ new Date().getFullYear() }} Pittsburgh Central Catholic Robotics</p>
 					<p class="text-body-2 mb-3 hidden-md-and-up transparent-subtitle">&copy; {{ new Date().getFullYear() }} PCCR</p>
-					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Web Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
+					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
 				</div>
 			</v-footer>
 		</v-main>

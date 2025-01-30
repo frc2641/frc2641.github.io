@@ -70,7 +70,7 @@
     <div class="text-center">
       <h3 class="font-weight-light text-h3 my-12">Our Team</h3>
 
-      <v-container style="max-width: 900px">
+      <v-container style="max-width: 800px">
         <v-row class="mb-4">
           <v-col cols="12" sm="6">
             <h5 class="text-h5 font-weight-bold text-center mb-4">HEAD COACH</h5>

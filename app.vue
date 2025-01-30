@@ -82,7 +82,7 @@
 	}
 
 	.v-application {
-		background: rgb(10, 10, 10) !important;
+		background: rgb(12, 12, 12) !important;
 	}
 
 	input, textarea {
