@@ -5,11 +5,14 @@
 </template>
 
 <script setup lang="ts">
-	const route = useRoute()
+	const router = useRouter()
 
-	watch(() => route.fullPath, () => {
-		window.scrollTo({ top: 0, behavior: "smooth" });
-	})
+	router.afterEach(() => {
+    setTimeout(() => {
+      const main = document.getElementById('main');
+      main?.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
+  });
 
 	useSeoMeta({
 		description: "Pittsburgh Central Catholic Robotics",

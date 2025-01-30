@@ -76,13 +76,25 @@
           size="large"
           color="primary"
           elevation="24"
-          text="Learn More"
+          text="Mentors"
+          width="150px"
         ></v-btn>
       </v-col>
     </v-row>
 
     <div class="text-center">
-      <h3 class="font-weight-light text-h3 mt-12 mb-8">Our Team</h3>
+      <h3 class="font-weight-light text-h3 mt-12 mb-4">Our team</h3>
+      <p class="mb-6">A strong FRC team is 100% student run.</p>
+      <v-btn
+        link
+        to="/about/leadership"
+        class="mb-8"
+        size="large"
+        color="secondary"
+        elevation="24"
+        text="Leaders"
+        width="150px"
+      ></v-btn>
 
       <v-container style="max-width: 900px">
         <v-row class="mb-4">

@@ -32,7 +32,7 @@
       </v-list>
     </v-navigation-drawer>
 
-		<v-main style="height: 100dvh; overflow-y: auto">
+		<v-main style="height: 100dvh; overflow-y: auto" id="main">
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
 			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}`" style="align-items: start; z-index: 0; padding-left: 12dvw" class="py-5">

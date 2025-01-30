@@ -18,28 +18,28 @@
               cover
             >
               <div class="image-overlay"></div>
-              <v-card-title class="text-h5 text-white" style="position: relative; z-index: 2" v-html="mentor.name"></v-card-title>
-              <v-card-subtitle class="mb-3 mt-n3 text-white" style="position: relative; z-index: 2" v-html="mentor.position || 'Mentor'"></v-card-subtitle>
+              <v-card-title class="text-h5" style="position: relative; z-index: 2" v-html="mentor.name"></v-card-title>
+              <v-card-subtitle class="mb-3 mt-n3" style="position: relative; z-index: 2" v-html="mentor.position || 'Mentor'"></v-card-subtitle>
             </v-img>
 
             <v-card-text class="pt-2 mb-n2">
               <div class="mb-2" v-if="mentor.expertise">
-                <p class="text-overline mb-n1 text-grey-lighten-1">Expertise</p>
+                <p class="text-overline mb-n1 text-grey">Expertise</p>
                 <p class="text-body-1" v-html="mentor.expertise"></p>
               </div>
 
               <div class="mb-2" v-if="mentor.career">
-                <p class="text-overline mb-n1 text-grey-lighten-1">Career</p>
+                <p class="text-overline mb-n1 text-grey">Career</p>
                 <p class="text-body-1" v-html="mentor.career"></p>
               </div>
 
               <div class="mb-2" v-if="mentor.education">
-                <p class="text-overline mb-n1 text-grey-lighten-1">Education</p>
+                <p class="text-overline mb-n1 text-grey">Education</p>
                 <p class="text-body-1" v-html="mentor.education"></p>
               </div>
 
               <div v-if="mentor.teams?.length > 0" v-for="team in mentor.teams" class="mb-2">
-                <p class="text-overline mb-n1 text-grey-lighten-1" v-html="team.team"></p>
+                <p class="text-overline mb-n1 text-grey" v-html="team.team"></p>
                 <p class="text-body-1" v-for="role in team.roles" v-html="`${role.role} (${role.years})`"></p>
               </div>
             </v-card-text>
@@ -240,7 +240,7 @@
   ]
 
   useHead({
-		title: "About | Pittsburgh Central Catholic Robotics",
+		title: "Mentors | Pittsburgh Central Catholic Robotics",
 	});
 </script>
 
