@@ -41,15 +41,15 @@
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 6">
-      <v-col class="pa-0 ma-0 elevation-24" cols="12" md="6">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 4" :style="`max-height: ${lgAndUp ? '55dvh' : ''}; height: ${lgAndUp ? '100%' : ''}`">
+      <v-col class="pa-0 ma-0" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
-          :height="mdAndUp ? '40dvh' : ''"
           src="@/assets/intro.webp"
           cover
-          style="z-index: 6"
-          :style="`${mdAndUp ? '' : 'aspect-ratio: 1.5;'}`"
+          position="center bottom"
+          style="z-index: 4; height: 100%"
+          :max-height="lgAndUp ? '55dvh' : ''"
         ></v-img>
       </v-col>
 
@@ -57,7 +57,7 @@
         cols="12"
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
-        style="flex-direction: column; justify-content: center; position: relative; z-index: 5"
+        style="flex-direction: column; justify-content: center; position: relative; z-index: 3"
         class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
@@ -78,15 +78,15 @@
       </v-col>
     </v-row>
 
-    <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 4">
+    <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 4" :style="`max-height: ${lgAndUp ? '55dvh' : ''}; height: ${lgAndUp ? '100%' : ''}`">
       <v-col class="pa-0 ma-0 order-first order-md-last" cols="12" md="6">
         <v-img
           class="pa-0 ma-0 elevation-24"
-          :height="mdAndUp ? '40dvh' : ''"
           src="@/assets/school.webp"
           cover
           position="center bottom"
-          style="z-index: 4"
+          style="z-index: 4; height: 100%"
+          :max-height="lgAndUp ? '55dvh' : ''"
         ></v-img>
       </v-col>
 
@@ -97,8 +97,8 @@
         style="flex-direction: column; justify-content: center; position: relative; z-index: 3"
         class="d-flex elevation-24"
       >
-        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">Our students are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in Oakland.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are located near several higher education institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">We are from Central Catholic High School, a prestigious private, Roman Catholic, all-boys college preparatory high school in Oakland.</p>
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are near several higher education institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
         <img src="@/assets/school_shield.webp" style="z-index: 3; position: absolute; top: -3dvh; left: 3dvw; width: 20dvh; opacity: 0.3;">
         <div>
           <v-btn
@@ -119,7 +119,7 @@
 </template>
 
 <script setup lang="ts">
-	const { smAndDown, mdAndUp, lgAndUp } = useDisplay();
+	const { smAndDown, mdAndUp, lgAndUp, xlAndUp } = useDisplay();
 
 	useHead({
 		title: "FRC Team 2641 | Pittsburgh Central Catholic Robotics",
