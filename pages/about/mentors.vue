@@ -11,16 +11,17 @@
       <v-row>
         <v-col cols="12" md="6" lg="4" v-for="mentor in mentors" :key="mentor.name">
           <v-card class="mx-auto" style="height: 100%; background: #181818">
-            <v-img
+            <v-parallax
               :src="mentor.image"
               class="align-end elevation-6"
               height="200px"
               cover
+              :scale="0.95"
             >
               <div class="image-overlay"></div>
               <v-card-title class="text-h5" style="position: relative; z-index: 2" v-html="mentor.name"></v-card-title>
               <v-card-subtitle class="mb-3 mt-n3" style="position: relative; z-index: 2" v-html="mentor.position || 'Mentor'"></v-card-subtitle>
-            </v-img>
+            </v-parallax>
 
             <v-card-text class="pt-2 mb-n2">
               <div class="mb-2" v-if="mentor.expertise">
