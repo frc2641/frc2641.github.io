@@ -1,13 +1,13 @@
 <template>
   <v-row no-gutters>
     <v-col cols="12" md="6">
-      <v-img
+      <v-parallax
         class="pa-0 ma-0"
         :min-height="mdAndUp ? 'calc(100dvh - 64px)' : ''"
         style="height: 100%"
         src="@/assets/contact.webp"
         cover
-      ></v-img>
+      ></v-parallax>
     </v-col>
 
     <v-col

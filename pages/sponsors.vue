@@ -2,13 +2,13 @@
   <div>
     <v-row class="pa-0 ma-0" no-gutters style="background: #2e0707; z-index: 7">
       <v-col class="pa-0 ma-0" cols="12" md="6">
-        <v-img
+        <v-parallax
           class="pa-0 ma-0"
           :min-height="mdAndUp ? 'calc(100dvh - 150px)' : ''"
           style="height: 100%"
           src="@/assets/sponsor.webp"
           cover
-        ></v-img>
+        ></v-parallax>
       </v-col>
 
       <v-col

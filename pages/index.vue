@@ -2,7 +2,7 @@
 	<div>
     <v-row class="pa-0 ma-0" no-gutters :style="`height: ${mdAndUp ? 'calc(100dvh - 150px)' : ''}`">
       <v-col class="pa-0 ma-0" cols="12" style="height: 0%;">
-        <v-img
+        <v-parallax
           src="@/assets/cchs.webp"
           max-width="100dvw"
           cover
@@ -37,19 +37,19 @@
               text="Sponsor Us"
             ></v-btn>
           </div>
-        </v-img>
+        </v-parallax>
       </v-col>
     </v-row>
 
     <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737; z-index: 4" :style="`max-height: ${lgAndUp ? '55dvh' : ''}; height: ${lgAndUp ? '100%' : ''}`">
       <v-col class="pa-0 ma-0" cols="12" md="6">
-        <v-img
+        <v-parallax
           class="pa-0 ma-0 elevation-24"
           src="@/assets/intro.webp"
           cover
           style="z-index: 6; height: 100%"
           :max-height="lgAndUp ? '55dvh' : ''"
-        ></v-img>
+        ></v-parallax>
       </v-col>
 
       <v-col
@@ -79,14 +79,14 @@
 
     <v-row class="pa-0 ma-0" no-gutters style="background: #423619; z-index: 4" :style="`max-height: ${lgAndUp ? '55dvh' : ''}; height: ${lgAndUp ? '100%' : ''}`">
       <v-col class="pa-0 ma-0 order-first order-md-last" cols="12" md="6">
-        <v-img
+        <v-parallax
           class="pa-0 ma-0 elevation-24"
           src="@/assets/school.webp"
           cover
           position="center bottom"
           style="z-index: 4; height: 100%"
           :max-height="lgAndUp ? '55dvh' : ''"
-        ></v-img>
+        ></v-parallax>
       </v-col>
 
       <v-col

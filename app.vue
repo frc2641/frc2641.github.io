@@ -11,7 +11,7 @@
     setTimeout(() => {
       const main = document.getElementById('main');
       main?.scrollTo({ top: 0, behavior: "smooth" });
-    }, 100);
+    }, 250);
   });
 
 	useSeoMeta({
@@ -74,7 +74,7 @@
 
 	html,
 	body {
-		overflow: hidden !important;
+		overflow-x: hidden !important;
 	}
 
 	$font-family: "Inter";
