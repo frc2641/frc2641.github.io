@@ -47,7 +47,6 @@
           class="pa-0 ma-0 elevation-24"
           src="@/assets/intro.webp"
           cover
-          position="center bottom"
           style="z-index: 6; height: 100%"
           :max-height="lgAndUp ? '55dvh' : ''"
         ></v-img>
