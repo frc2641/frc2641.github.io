@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-row class="pa-0 ma-0" no-gutters style="background: #0c1737">
-      <v-col cols="12" class="text-center elevation-12">
-        <h3 class="text-h3 font-weight-light mt-12 mb-4">Our mentors</h3>
-        <p class="mb-12">Our dedicated mentors help us deliver a world-class experience.</p>
+      <v-col cols="12" class="text-center elevation-12 pa-12">
+        <h3 class="text-h3 font-weight-light mb-4">Our mentors</h3>
+        <p>Our dedicated mentors help us deliver a world-class experience.</p>
       </v-col>
     </v-row>
     
