@@ -105,8 +105,8 @@
 					<p class="text-overline transparent-subtitle mt-n1 mb-n2" style="font-size: 9px !important">Powered by <a href="https://www.frclookout.com" target="_blank">Lookout</a>. Design by <a href="https://www.aidanliddy.com" target="_blank">Aidan Liddy</a>.</p>
 				</div>
 
-        <img class="hidden-sm-and-down" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; top: -11dvh; right: 15dvw; width: 32dvh; opacity: 0.2;">
-				<img class="hidden-md-and-up" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; bottom: -5dvh; right: -5dvh; width: 32dvh; opacity: 0.15;">
+        <img class="hidden-sm-and-down" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; top: -11dvh; right: 15dvw; width: 300px; opacity: 0.2;">
+				<img class="hidden-md-and-up" src="@/assets/school_seal.svg" style="z-index: 3; position: absolute; bottom: -5dvh; right: -5dvh; width: 250px; opacity: 0.15;">
 			</v-footer>
 		</v-main>
 	</v-layout>
