@@ -71,7 +71,7 @@
     <v-row no-gutters class="text-center">
       <v-col cols="12" md="6" style="background: #423619; z-index: 5" class="elevation-24">
         <h3 class="text-h3 font-weight-light mt-12 mb-4">Mentors</h3>
-        <p class="mb-6">Our dedicated mentors help us deliver a world-class experience.</p>
+        <p class="mb-5">Our dedicated mentors help us deliver a world-class experience.</p>
         <v-btn
           link
           to="/about/mentors"
@@ -86,7 +86,7 @@
 
       <v-col cols="12" md="6" style="background: #2e0707; z-index: 5" class="elevation-24">
         <h3 class="text-h3 font-weight-light mt-12 mb-4">Leaders</h3>
-        <p class="mb-6">A strong FRC team is 100% run.</p>
+        <p class="mb-5">A strong FRC team is 100% student-run.</p>
         <v-btn
           link
           to="/about/leadership"
