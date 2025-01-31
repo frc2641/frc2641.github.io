@@ -1,7 +1,7 @@
 <template>
 	<div>
     <v-row class="pa-0 ma-0" no-gutters :style="`height: ${mdAndUp ? 'calc(100dvh - 150px)' : ''}`">
-      <v-col class="pa-0 ma-0 elevation-24" cols="12" style="height: 0%;">
+      <v-col class="pa-0 ma-0" cols="12" style="height: 0%;">
         <v-img
           src="@/assets/cchs.webp"
           max-width="100dvw"
@@ -48,7 +48,7 @@
           src="@/assets/intro.webp"
           cover
           position="center bottom"
-          style="z-index: 4; height: 100%"
+          style="z-index: 6; height: 100%"
           :max-height="lgAndUp ? '55dvh' : ''"
         ></v-img>
       </v-col>
@@ -57,7 +57,7 @@
         cols="12"
         md="6"
         :style="lgAndUp ? 'padding: 50px 80px' : 'padding: 24px'"
-        style="flex-direction: column; justify-content: center; position: relative; z-index: 3"
+        style="flex-direction: column; justify-content: center; position: relative; z-index: 5"
         class="d-flex elevation-24"
       >
         <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
