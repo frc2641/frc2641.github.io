@@ -23,7 +23,7 @@
               </v-row>
             </v-card-text>
             
-            <img :src="season.logo" :style="`z-index: -1; position: absolute; top: ${season.top}; right: ${season.right}; width: 30dvh; opacity: 0.1`" alt="">
+            <img :src="season.logo" :style="`z-index: -1; position: absolute; top: ${season.top}; right: ${season.right}; width: 250px; opacity: 0.1`" alt="">
           </v-card>
         </v-col>
       </v-row>
