@@ -49,7 +49,7 @@
             link
             to="/sponsors"
             size="large"
-            class="mt-2 mr-4 elevation-24"
+            class="mt-2 mb-4 mr-4 elevation-24"
             color="primary"
             text="Our Sponsors"
             width="200px"
