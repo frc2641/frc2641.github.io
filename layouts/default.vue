@@ -3,15 +3,16 @@
 		<v-app-bar color="#1e3a8a" class="elevation-12" style="user-select: none; position: fixed">
 			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
-				<v-app-bar-title style="width: 100%" class="hidden-md-and-down">
+				<v-app-bar-title style="width: 100%">
 					<p class="text-overline mt-n1" style="margin-bottom: -9px">FRC Team 2641</p>
-					<h5 class="text-h5">Pittsburgh Central Catholic Robotics</h5>
+					<h5 class="hidden-sm-and-down text-h5">Pittsburgh Central Catholic Robotics</h5>
+					<h5 class="hidden-md-and-up text-h5">PCCR</h5>
 				</v-app-bar-title>
 			</router-link>
 
 			<v-spacer></v-spacer>
 
-			<div class="hidden-sm-and-down">
+			<div class="hidden-md-and-down">
 				<v-btn link to="/" text="Home"></v-btn>
 				<v-btn link to="/about" text="About"></v-btn>
 				<v-btn link to="/sponsors" text="Sponsors"></v-btn>
@@ -19,7 +20,7 @@
 				<v-btn class="mr-2" href="https://www.frclookout.com" target="_blank" text="Lookout" append-icon="mdi-arrow-right"></v-btn>
       </div>
 
-			<v-btn class="hidden-md-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
+			<v-btn class="hidden-lg-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
 		</v-app-bar>
 
 		<v-navigation-drawer v-model="drawer" location="right" temporary class="hidden-md-and-up">
