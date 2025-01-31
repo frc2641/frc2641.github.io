@@ -23,7 +23,7 @@
 			<v-btn class="hidden-lg-and-up mr-2" icon="mdi-menu" variant="text" @click="drawer = !drawer"></v-btn>
 		</v-app-bar>
 
-		<v-navigation-drawer v-model="drawer" location="right" temporary class="hidden-md-and-up">
+		<v-navigation-drawer v-model="drawer" location="right" temporary class="hidden-md-and-up" style="position: fixed">
       <v-list density="compact">
         <v-list-item title="Home" link to="/"></v-list-item>
         <v-list-item title="About" link to="/about"></v-list-item>
