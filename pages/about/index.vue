@@ -98,12 +98,12 @@
       </v-col>
     </v-row>
 
-    <div class="text-center">
-      <h3 class="font-weight-light text-h3 mt-12 mb-4">Team</h3>
+    <div class="text-center pa-12">
+      <h3 class="font-weight-light text-h3 mb-4">Team</h3>
       <p class="mb-6">All of our team members for the 2025 season.</p>
 
-      <v-container style="max-width: 900px">
-        <v-row class="mb-4">
+      <v-container style="max-width: 900px" class="pb-0">
+        <v-row>
           <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SENIORS</h5>
             <p>Brenden McCarthy, '25</p>
