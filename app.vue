@@ -5,15 +5,6 @@
 </template>
 
 <script setup lang="ts">
-	const router = useRouter()
-
-	router.afterEach(() => {
-    setTimeout(() => {
-      const main = document.getElementById('main');
-      main?.scrollTo({ top: 0, behavior: "smooth" });
-    }, 250);
-  });
-
 	useSeoMeta({
 		description: "Pittsburgh Central Catholic Robotics",
 		ogTitle: "FRC Team 2641",

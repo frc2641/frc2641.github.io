@@ -1,6 +1,6 @@
 <template>
 	<v-layout>
-		<v-app-bar color="#1e3a8a" class="elevation-12" style="user-select: none;">
+		<v-app-bar color="#1e3a8a" class="elevation-12" style="user-select: none; position: fixed">
 			<router-link to="/" class="d-flex" style="text-decoration: none; align-items: center">
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
 				<v-app-bar-title style="width: 100%" class="hidden-md-and-down">
@@ -32,7 +32,7 @@
       </v-list>
     </v-navigation-drawer>
 
-		<v-main style="height: 100dvh; overflow-y: auto" id="main">
+		<v-main>
 			<NuxtPage style="position: relative; z-index: 1; box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px" />
 
 			<v-footer :style="`display: ${mdAndUp ? 'flex' : 'block'}; padding-left: ${mdAndUp ? '15dvw' : '20px'}`" style="align-items: start; z-index: 0; position: relative; overflow: hidden;" class="py-5">
