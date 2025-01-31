@@ -59,8 +59,8 @@
         style="flex-direction: column; justify-content: center; position: relative; z-index: 5"
         class="d-flex elevation-24"
       >
-        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 6">Our mission is to provide students with a strong environment to develop their skills in STEM fields and become the future leaders of their community.</p>
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 6; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8)">Team 2641 is a competitive FIRST Robotics Competition (FRC) team from Pittsburgh, PA.</p>
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 6; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8)">Our mission is to provide students with a strong environment to develop their skills in STEM fields and become the future leaders of their community.</p>
         <img src="@/assets/first.svg" style="z-index: 5; position: absolute; top: -5dvh; right: 3dvw; width: 30vh" alt="">
         <div>
           <v-btn
@@ -96,9 +96,9 @@
         style="flex-direction: column; justify-content: center; position: relative; z-index: 3"
         class="d-flex elevation-24"
       >
-        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4">We are from Central Catholic High School, a prestigious, private, Roman Catholic, all-boys, college preparatory high school in Oakland.</p>
-        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4">We are near several higher education institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
-        <img src="@/assets/school_shield.svg" style="z-index: 3; position: absolute; top: -3dvh; left: 3dvw; width: 20vh; opacity: 0.45;">
+        <p class="text-h5 mb-4 font-weight-medium" style="z-index: 4; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8)">We are from Central Catholic High School, a prestigious, private, Roman Catholic, all-boys, college preparatory high school in Oakland.</p>
+        <p class="text-h5 mb-4 font-weight-thin" style="z-index: 4; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8)">We are near several higher education institutions, including the University of Pittsburgh and Carnegie Mellon.</p>
+        <img src="@/assets/school_shield.svg" style="z-index: 3; position: absolute; top: -3dvh; left: 3dvw; width: 17.5vh; opacity: 0.45;">
         <div>
           <v-btn
             href="https://www.centralcatholichs.com"

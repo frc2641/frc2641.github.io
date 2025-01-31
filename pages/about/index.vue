@@ -106,9 +106,9 @@
         <v-row>
           <v-col cols="12" sm="6" md="3">
             <h5 class="text-h5 font-weight-bold text-center mb-4">SENIORS</h5>
-            <p>Brenden McCarthy, '25</p>
             <p>Eden Chung, '25</p>
             <p>Victor Ezaru, '25</p>
+            <p>Brenden McCarthy, '25</p>
             <p>Zachary Moats, '25</p>
             <p>Jonathan Mox, '25</p>
             <p>Luke Nuzzo, '25</p>
