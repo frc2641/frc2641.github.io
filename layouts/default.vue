@@ -5,8 +5,8 @@
 				<img alt="Team logo" class="ml-4 mr-2" src="~/assets/logo.webp" style="width: 50px" />
 				<v-app-bar-title style="width: 100%">
 					<p class="text-overline mt-n1" style="margin-bottom: -9px">FRC Team 2641</p>
-					<h5 class="hidden-sm-and-down text-h5">Pittsburgh Central Catholic Robotics</h5>
-					<h5 class="hidden-md-and-up text-h5">PCCR</h5>
+					<h5 style="margin-left: -1px" class="hidden-sm-and-down text-h5">Pittsburgh Central Catholic Robotics</h5>
+					<h5 style="margin-left: -1px" class="hidden-md-and-up text-h5">PCCR</h5>
 				</v-app-bar-title>
 			</router-link>
 
