@@ -29,19 +29,19 @@
                 <p class="text-body-1" v-html="mentor.expertise"></p>
               </div>
 
-              <div class="mb-2" v-if="mentor.career">
+              <div v-if="mentor.career?.length > 0">
                 <p class="text-overline mb-n1 text-grey">Career</p>
-                <p class="text-body-1" v-html="mentor.career"></p>
+                <p class="text-body-1 mb-2" v-for="career in mentor.career" v-html="career"></p>
               </div>
 
-              <div class="mb-2" v-if="mentor.education">
+              <div v-if="mentor.education?.length > 0">
                 <p class="text-overline mb-n1 text-grey">Education</p>
-                <p class="text-body-1" v-html="mentor.education"></p>
+                <p class="text-body-1 mb-2" v-for="education in mentor.education" v-html="education"></p>
               </div>
 
               <div v-if="mentor.teams?.length > 0" v-for="team in mentor.teams" class="mb-2">
                 <p class="text-overline mb-n1 text-grey" v-html="team.team"></p>
-                <p class="text-body-1" v-for="role in team.roles" v-html="`${role.role} (${role.years})`"></p>
+                <p class="text-body-1" v-for="role in team.roles" v-html="role"></p>
               </div>
             </v-card-text>
           </v-card>
@@ -57,20 +57,14 @@
       name: "Christian Romano, '17",
       position: "Head Coach",
       expertise: 'Electronics',
-      career: 'Managing Member,<br><a href="https://www.oakrdg.com" target="_blank">OakRidge Consulting</a>',
-      education: 'BS, Industrial Engineering,<br>University of Pittsburgh',
+      career: ['Managing Member,<br><a href="https://www.oakrdg.com" target="_blank">OakRidge Consulting</a>'],
+      education: ['BS, Industrial Engineering,<br>University of Pittsburgh'],
       teams: [
         {
           team: 'FRC Team 2641',
           roles: [
-            {
-              role: 'Mentor',
-              years: '2018 - present',
-            },
-            {
-              role: 'Student',
-              years: '2013 - 2017',
-            }
+            'Mentor (2018 - present)',
+            'Student (2013 - 2017)',
           ]
         },
       ],
@@ -80,8 +74,8 @@
       name: "Kevin Heid",
       position: "Faculty Moderator",
       expertise: 'Mechanical',
-      career: 'Engineering Teacher,<br>Central Catholic High School',
-      education: 'MS, Education,<br>Edinboro University',
+      career: ['Engineering Teacher,<br>Central Catholic High School'],
+      education: ['MS, Education,<br>Edinboro University'],
       teams: [],
       image: '/mentors/kheid.webp',
     },
@@ -89,20 +83,14 @@
       name: "Aidan Liddy, '23",
       position: 'Assistant Coach',
       expertise: 'Code',
-      career: 'Network Analyst,<br><a href="https://www.centralintegrations.com" target="_blank">Central Integrations</a>',
-      education: 'BS, Computer Science,<br>University of Pittsburgh',
+      career: ['Network Analyst,<br><a href="https://www.centralintegrations.com" target="_blank">Central Integrations</a>'],
+      education: ['BS, Computer Science,<br>University of Pittsburgh'],
       teams: [
         {
           team: 'FRC Team 2641',
           roles: [
-            {
-              role: 'Mentor',
-              years: '2024 - present',
-            },
-            {
-              role: 'Student',
-              years: '2019 - 2023',
-            }
+            'Mentor (2024 - present)',
+            'Student (2019 - 2023)',
           ]
         },
       ],
@@ -112,132 +100,97 @@
       name: "Joe Hudak, '13",
       position: "Mentor",
       expertise: 'Mechanical',
-      career: 'Enterprise Data and Initiatives Manager,<br>TriState Capital Bank',
-      education: 'MS, Computational Mathematics,<br>Duquesne University',
+      career: ['Enterprise Data and Initiatives Manager,<br>TriState Capital Bank'],
+      education: ['MS, Computational Mathematics,<br>Duquesne University'],
       teams: [
         {
           team: 'FRC Team 2641',
           roles: [
-            {
-              role: 'Mentor',
-              years: '2014 - present',
-            },
-            {
-              role: 'Student',
-              years: '2010 - 2013',
-            }
+            'Mentor (2014 - present)',
+            'Student (2010 - 2013)',
           ]
         },
       ],
-      image: '/mentors/jhudak.webp',
+      // image: '/mentors/jhudak.webp',
     },
     {
       name: "Alisha Patel",
       position: 'Mentor',
       expertise: 'Mechanical',
-      education: 'BS, Mechanical Engineering,<br>Carnegie Mellon University',
+      career: [],
+      education: ['BS, Mechanical Engineering,<br>Carnegie Mellon University'],
       teams: [
         {
           team: 'FRC Team 2641',
-          roles: [
-            {
-              role: 'Mentor',
-              years: '2022 - present',
-            },
-          ]
+          roles: ['Mentor (2022 - present)']
         },
         {
           team: 'FRC Team 6328',
-          roles: [
-            {
-              role: 'Student',
-              years: '2018 - 2021',
-            },
-          ]
+          roles: ['Student (2018 - 2021)']
         },
       ],
-      image: '/mentors/bvery.webp',
+      // image: '/mentors/apatel.webp',
     },
     {
       name: "Justin Tomko",
       position: 'Mentor',
       expertise: 'Code',
-      career: 'Mechanical Engineer,<br>Naval Nuclear Laboratory',
-      education: 'MS, Mechanical Engineering,<br>University of Pittsburgh',
+      career: ['Mechanical Engineer,<br>Naval Nuclear Laboratory'],
+      education: ['MS, Mechanical Engineering,<br>University of Pittsburgh'],
       teams: [
         {
           team: 'FRC Team 2641',
-          roles: [
-            {
-              role: 'Mentor',
-              years: '2017 - present',
-            },
-          ]
+          roles: ['Mentor (2017 - present)']
         },
       ],
-      image: '/mentors/jtomko.webp',
+      // image: '/mentors/jtomko.webp',
     },
     {
       name: "Ben Very, '23",
       position: 'Mentor',
       expertise: 'Mechanical',
-      education: 'BS, Mechanical Engineering,<br>University of Pittsburgh',
+      career: [],
+      education: ['BS, Mechanical Engineering,<br>University of Pittsburgh'],
       teams: [
         {
           team: 'FRC Team 2641',
           roles: [
-            {
-              role: 'Mentor',
-              years: '2024 - present',
-            },
-            {
-              role: 'Student',
-              years: '2022 - 2023',
-            }
+            'Mentor (2024 - present)',
+            'Student (2022 - 2023)',
           ]
         },
       ],
-      image: '/mentors/bvery.webp',
+      // image: '/mentors/bvery.webp',
     },
     {
       name: "Alaina Vallus",
       position: 'Mentor',
-      career: 'Cyber Threat Analyst,<br>BNY Mellon',
-      education: 'BS, Cyber Forensics and Information Security,<br>Robert Morris University',
+      career: ['Cyber Threat Analyst,<br>BNY Mellon'],
+      education: ['BS, Cyber Forensics and Information Security,<br>Robert Morris University'],
       teams: [
         {
           team: 'FRC Team 2641',
-          roles: [
-            {
-              role: 'Mentor',
-              years: '2021 - present',
-            },
-          ]
+          roles: ['Mentor (2021 - present)']
         },
       ],
-      image: '/mentors/avallus.webp',
+      // image: '/mentors/avallus.webp',
     },
     {
       name: "Cam Vallus",
       position: 'Mentor',
       expertise: 'Mechanical',
-      career: 'Journeyman Carpenter',
+      career: ['Journeyman Carpenter'],
+      education: [],
       teams: [
         {
           team: 'FRC Team 2641',
           roles: [
-            {
-              role: 'Mentor',
-              years: '2018 - present',
-            },
-            {
-              role: 'Student',
-              years: '2013 - 2017',
-            }
+            'Mentor (2018 - present)',
+            'Student (2013 - 2017)',
           ]
         },
       ],
-      image: '/mentors/cvallus.webp',
+      // image: '/mentors/cvallus.webp',
     },
   ]
 
