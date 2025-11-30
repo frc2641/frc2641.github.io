@@ -17,7 +17,7 @@
 	});
 
 	useHead({
-		title: 'FRC Team 2641 | Pittsburgh Central Catholic Robotics',
+		title: "FRC Team 2641 | Pittsburgh Central Catholic Robotics",
 		htmlAttrs: { lang: "en" },
 		meta: [
 			{
@@ -74,7 +74,7 @@
 	* {
 		font-family: $font-family, sans-serif !important;
 	}
-	
+
 	[class*="text-"] {
 		font-family: $font-family, sans-serif !important;
 	}
@@ -83,7 +83,8 @@
 		background: rgb(12, 12, 12) !important;
 	}
 
-	input, textarea {
+	input,
+	textarea {
 		outline: none;
 		width: 100%;
 	}

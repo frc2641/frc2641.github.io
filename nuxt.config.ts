@@ -8,11 +8,7 @@ export default defineNuxtConfig({
 		},
 	},
 	css: ["vuetify/styles"],
-	modules: [
-		"vuetify-nuxt-module",
-		"nuxt-gtag",
-		"nuxt-security"
-	],
+	modules: ["vuetify-nuxt-module", "nuxt-gtag", "nuxt-security"],
 	ssr: true,
 	imports: {
 		dirs: ["maps"],
@@ -28,20 +24,20 @@ export default defineNuxtConfig({
 			gzip: true,
 			brotli: true,
 		},
-		static: true
+		static: true,
 	},
-	compatibilityDate: '2025-01-11',
+	compatibilityDate: "2025-01-11",
 	future: {
-    compatibilityVersion: 4,
-  },
+		compatibilityVersion: 4,
+	},
 	vuetify: {
 		moduleOptions: {},
-		vuetifyOptions: {}
+		vuetifyOptions: {},
 	},
 	gtag: {
-    id: 'G-KZZPCS498M'
-  },
+		id: "G-KZZPCS498M",
+	},
 	app: {
-		pageTransition: { name: 'page', mode: 'out-in' },
-	}
+		pageTransition: { name: "page", mode: "out-in" },
+	},
 });
