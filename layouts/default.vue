@@ -63,7 +63,7 @@
 						<v-btn target="_blank" href="https://twitter.com/FRC2641" icon variant="text" color="grey" size="x-small">
 							<v-icon :size="20">mdi-twitter</v-icon>
 						</v-btn>
-						<v-btn target="_blank" href="https://github.com/CentralCatholic2641" icon variant="text" color="grey" size="x-small">
+						<v-btn target="_blank" href="https://github.com/frc2641" icon variant="text" color="grey" size="x-small">
 							<v-icon :size="20">mdi-github</v-icon>
 						</v-btn>
 					</div>

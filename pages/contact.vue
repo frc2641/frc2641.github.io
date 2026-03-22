@@ -52,7 +52,7 @@
 					<v-btn target="_blank" href="https://www.instagram.com/frc2641" icon="mdi-instagram" variant="text" color="grey"></v-btn>
 					<v-btn target="_blank" href="https://www.facebook.com/Team2641Pccr" icon="mdi-facebook" variant="text" color="grey"></v-btn>
 					<v-btn target="_blank" href="https://twitter.com/FRC2641" icon="mdi-twitter" variant="text" color="grey"></v-btn>
-					<v-btn target="_blank" href="https://github.com/CentralCatholic2641" icon="mdi-github" variant="text" color="grey"></v-btn>
+					<v-btn target="_blank" href="https://github.com/frc2641" icon="mdi-github" variant="text" color="grey"></v-btn>
 					<v-spacer></v-spacer>
 					<v-btn
 						v-if="smAndUp"
