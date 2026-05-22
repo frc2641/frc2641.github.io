@@ -236,11 +236,14 @@ async function send() {
   const payload = { parent_name, student_name, phone, email, message };
 
   try {
-    const res = await fetch("https://www.frclookout.com/api/workshops/enroll", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+    const res = await fetch(
+      "https://www.frclookout.com/api/workshops/register",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      },
+    );
 
     const json = await res.json();
     if (!res.ok) throw new Error(json?.message || "Failed to send");
@@ -257,8 +260,6 @@ async function send() {
     for (const workshop of workshops.value) {
       data.value.workshops[workshop.date] = true;
     }
-
-    alert("Message sent — thank you!");
   } catch (err) {
     console.error(err);
     alert("Error sending message. Please try again later.");
