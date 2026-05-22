@@ -12,6 +12,7 @@
     <v-col
       cols="12"
       md="7"
+      xl="6"
       :style="lgAndUp ? 'padding: 90px' : 'padding: 24px'"
     >
       <h2 class="text-h2 mb-5">2026 Summer Workshops</h2>
