@@ -228,7 +228,7 @@ let workshops = ref([
   },
 ]);
 
-for (const workshop of workshops.value) {
+for (const workshop of workshops.value || []) {
   data.value.workshops[workshop.date] = true;
 }
 
@@ -267,7 +267,8 @@ async function send() {
       workshops: {},
     };
 
-    for (const workshop of workshops.value) {
+    // @ts-ignore
+    for (const workshop of workshops.value || []) {
       data.value.workshops[workshop.date] = true;
     }
   } catch (err) {
