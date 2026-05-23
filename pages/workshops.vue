@@ -268,7 +268,7 @@ async function send() {
 }
 
 useHead({
-  title: "Contact | Pittsburgh Central Catholic Robotics",
+  title: "2026 Summer Workshops | Pittsburgh Central Catholic Robotics",
 });
 </script>
 
