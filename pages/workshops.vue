@@ -32,7 +32,7 @@
             Subject to change
           </p>
 
-          <v-card>
+          <v-card class="mb-n2">
             <v-table density="compact">
               <thead>
                 <tr>
@@ -92,7 +92,7 @@
       <v-row class="pa-0 mt-0" no-gutters>
         <v-col cols="12" sm="6">
           <v-text-field
-            class="mr-2"
+            :class="{ 'mr-2': smAndUp }"
             variant="solo"
             hide-details
             label="Parent Phone"
@@ -104,7 +104,7 @@
           <v-text-field
             variant="solo"
             hide-details
-            class="ml-2 mb-4"
+            :class="{ 'ml-2': smAndUp, 'mt-4': !smAndUp, 'mb-4': true }"
             label="Parent Email"
             v-model="data.email"
           ></v-text-field>
@@ -113,10 +113,11 @@
 
       <v-row class="pa-0 mt-0" no-gutters>
         <v-col cols="12" sm="6">
-          <p class="mb-2 text-grey-lighten-1">
+          <p class="mb-2 pl-4 text-grey-lighten-1">
             Which workshops will your son be attending?
           </p>
           <v-checkbox
+            class="pl-3"
             color="primary"
             density="compact"
             hide-details
@@ -129,7 +130,7 @@
 
         <v-col cols="12" sm="6">
           <v-textarea
-            class="ml-2"
+            :class="{ 'ml-2': smAndUp, 'mt-2': !smAndUp }"
             variant="solo"
             hide-details
             label="Additional Information"
@@ -145,12 +146,12 @@
                 !data.phone ||
                 !data.email
               "
-              style="width: 125px"
+              style="width: 150px"
               class="elevation-24"
               @click="send()"
               size="large"
               color="primary"
-              text="Send"
+              text="Submit"
               append-icon="mdi-send"
             ></v-btn>
           </div>
@@ -232,9 +233,17 @@ for (const workshop of workshops.value) {
 }
 
 async function send() {
-  const { parent_name, student_name, phone, email, message } = data.value;
+  const { parent_name, student_name, phone, email, message, workshops } =
+    data.value;
 
-  const payload = { parent_name, student_name, phone, email, message };
+  const payload = {
+    parent_name,
+    student_name,
+    phone,
+    email,
+    message,
+    workshops,
+  };
 
   try {
     const res = await fetch(
